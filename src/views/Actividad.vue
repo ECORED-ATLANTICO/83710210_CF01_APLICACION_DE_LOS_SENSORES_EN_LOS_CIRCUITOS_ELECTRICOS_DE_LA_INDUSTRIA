@@ -2,8 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -19,489 +17,692 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Sensores, medición y adquisición',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar y reforzar su capacidad para identificar los conceptos relacionados con la medición, los sensores, los transductores, las señales, el acondicionamiento de señales y los sistemas electrónicos básicos de control, aplicados a procesos industriales.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
+      mensaje_aprobado:
+        '¡Excelente! Ha superado la actividad y demuestra sólidos conocimientos sobre los sensores, la medición, la adquisición de señales y los sistemas electrónicos básicos de control.',
+      mensaje_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿En qué consiste la medición en un entorno industrial?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'En comparar una variable física con una unidad de medida estándar.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'En eliminar la corriente de los circuitos de control.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'En sustituir la señal del sensor por una fuente fija.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'En cambiar la frecuencia de trabajo de los actuadores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Correcto. La medición es el proceso mediante el cual se determina el valor de una variable física comparándola con un patrón o unidad de medida preestablecida.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes conceptos corresponde a una característica relacionada con la medición?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto: 'Exactitud.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Aislamiento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Programación.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Conmutación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Muy bien. La exactitud es una característica importante para determinar qué tan cercana es una medición al valor real de la variable.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál es la función principal de un sensor en un proceso industrial?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Generar únicamente señales digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'Detectar una variable física y proporcionar información sobre ella.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Sustituir todos los elementos de control.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Aumentar automáticamente la potencia del circuito.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. El sensor permite captar información relacionada con una variable física presente en un proceso.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de las siguientes opciones corresponde a una variable física susceptible de ser medida en la industria?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto: 'Temperatura.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Programa informático.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Contraseña.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Nombre del operador.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. La temperatura es una variable física que puede ser detectada y medida mediante sensores.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿A qué se refiere el rango de un instrumento de medición?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'La velocidad de comunicación del sensor.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El intervalo de valores que puede medir el instrumento.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'La cantidad de cables utilizados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'El tamaño físico del sensor.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Muy bien. El rango establece los límites inferior y superior dentro de los cuales un instrumento puede realizar una medición.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿En qué consiste el proceso de captación dentro de un sistema de medición?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'La identificación y adquisición de una variable del proceso.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'La eliminación de todos los componentes eléctricos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'La programación del operador.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'El aumento de la temperatura del proceso.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. La captación permite obtener información de una variable física mediante los elementos destinados para su medición.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál es la función principal de un transductor en un sistema electrónico?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Transformar una forma de energía o señal en otra.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Eliminar la variable que se desea medir.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Sustituir el sistema de alimentación eléctrica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Desconectar automáticamente todos los sensores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Muy bien. El transductor permite transformar una magnitud o forma de energía en una señal que pueda ser utilizada por el sistema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál de las siguientes afirmaciones describe mejor a una señal analógica?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Solo puede tener los valores cero y uno.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Puede representar valores variables dentro de un intervalo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'No puede ser medida por sensores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Siempre corresponde a una señal binaria.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Una señal analógica puede variar de manera continua y representar diferentes valores de una variable física.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál es la característica principal de una señal binaria?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Tener infinitos estados posibles.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Representar dos estados o valores.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Ser exclusivamente una señal de temperatura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No poder utilizarse en sistemas electrónicos.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Las señales binarias utilizan dos estados para representar información, comúnmente asociados con los valores 0 y 1.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es la finalidad del acondicionamiento de señal en un circuito industrial?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Adaptar una señal para que pueda ser procesada adecuadamente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar completamente la información del sensor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir la variable física del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Impedir la adquisición de señales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Muy bien. El acondicionamiento adapta las señales provenientes de sensores para facilitar su adecuada adquisición y procesamiento.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Por qué es indispensable el acondicionamiento de la señal antes de su procesamiento digital?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Porque todas las señales tienen automáticamente las condiciones requeridas por el procesador.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Porque algunas señales pueden ser demasiado pequeñas, demasiado grandes o no cumplir los requerimientos eléctricos del procesador.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Porque los sensores no producen ningún tipo de señal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque el procesador no necesita recibir información.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. El acondicionamiento permite adaptar las señales para que puedan ser captadas correctamente por el elemento procesador.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál es la función del conversor análogo-digital (ADC) en la adquisición de datos?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Convertir valores analógicos en códigos binarios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Convertir códigos binarios en señales mecánicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar las señales provenientes de sensores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar la temperatura del proceso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien. El conversor análogo-digital toma valores analógicos y los transforma en códigos binarios para facilitar su procesamiento electrónico.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            'En la estructura de un sistema de medición, ¿qué papel desempeña el sensor?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Captar información relacionada con la variable física del proceso.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Realizar únicamente operaciones matemáticas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir al procesador electrónico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el circuito de acondicionamiento.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. El sensor constituye uno de los elementos que permiten obtener información de las variables presentes en el proceso.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál es la secuencia lógica general en la adquisición de señales de un proceso?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Variable física → sensor → señal → procesamiento.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Procesador → variable física → sensor → eliminación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Señal → variable física → eliminación → sensor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Actuador → sensor → variable → desconexión.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. En términos generales, el sensor permite captar la variable y generar una señal que posteriormente puede ser acondicionada y procesada.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es el propósito central de la instrumentación industrial?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Medir y controlar variables que intervienen en los procesos industriales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar todos los sensores de una industria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir la producción industrial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar el uso de sistemas electrónicos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto:
+            'Muy bien. La instrumentación permite obtener información de las variables del proceso y contribuir a su control.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 2,
+          id: 16,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            '¿Qué beneficio aporta el procesamiento de datos obtenidos por los sensores?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Tomar decisiones relacionadas con el comportamiento del proceso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar la medición de las variables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Desconectar permanentemente los dispositivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar el procesamiento de señales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La información captada por los sensores puede ser procesada para establecer acciones de control sobre el proceso.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 3,
+          id: 17,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+            '¿Cuál de los siguientes elementos forma parte de los sistemas electrónicos básicos de control?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Compuerta lógica.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Documento administrativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Inventario de productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Manual de funciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. Las compuertas lógicas hacen parte de los elementos utilizados en sistemas electrónicos básicos de control.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 4,
+          id: 18,
           texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
+            '¿Qué dispositivo permite representar valores continuos mediante códigos binarios en un sistema de control?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un conversor análogo-digital.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Un interruptor mecánico únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Una señal de voz.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un elemento de protección personal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien. El conversor análogo-digital permite representar valores analógicos mediante códigos binarios.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 5,
+          id: 19,
           texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
+            '¿Cuál es el criterio fundamental para la selección adecuada de un sensor en la industria?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Obtener información pertinente sobre la variable que se desea medir.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar la necesidad de controlar el proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar cualquier tipo de procesamiento electrónico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Convertir automáticamente toda señal en potencia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La selección del sensor debe responder a la variable que se desea captar y a las condiciones del proceso.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 6,
+          id: 20,
           texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            'En conjunto, ¿cuál es la utilidad del sistema de adquisición de señales y control en una planta industrial?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Obtener información del proceso y utilizarla para establecer acciones de control.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar las variables del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Impedir la comunicación entre los dispositivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir todos los componentes electrónicos por elementos mecánicos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente! La adquisición de señales mediante sensores permite obtener información del proceso y utilizarla como base para implementar sistemas electrónicos básicos de control.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>
