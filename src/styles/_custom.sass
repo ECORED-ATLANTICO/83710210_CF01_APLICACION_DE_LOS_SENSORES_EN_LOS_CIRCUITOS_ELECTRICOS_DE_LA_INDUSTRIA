@@ -261,21 +261,27 @@ figcaption
     padding-right: 3rem
 
 .bg-fondo-1
-  // background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/img15.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg01.png") !important
   // background-image: url("../assets/curso/tema1/bg01.png") !important
   background-position: center
   background-size: cover
 
 .bg-fondo-2
-  // background-image: url("../assets/curso/tema1/img24.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg02.png") !important
+  // background-image: url("../assets/curso/tema1/bg01.png") !important
   background-position: center
   background-size: cover
-  border-radius: 25px
-  @media screen and (max-width: $bp-max-sm)
-    border-radius: 15px
+
+// .bg-fondo-2
+//   // background-image: url("../assets/curso/tema1/img24.png") !important
+//   background-position: center
+//   background-size: cover
+//   border-radius: 25px
+//   @media screen and (max-width: $bp-max-sm)
+//     border-radius: 15px
 
 .bg-fondo-3
-  // background-image: url("../assets/curso/tema1/bg01.png") !important
+  background-image: url("../assets/curso/tema1/bg01.png") !important
   // background-position: 50%
   border-radius: 15px
   background-size: cover
@@ -287,25 +293,37 @@ figcaption
   background-size: cover
 
 .bg-fondo-01
-  // background-image: url("../assets/curso/tema1/img07.png") !important
+  background-image: url("../assets/curso/tema1/img07.png") !important
   background-position: center
-  background-size: 100% 100%
+  background-size: cover
   border-radius: 15px
 
 .bg-fondo-02
-  // background-image: url("../assets/curso/tema1/img10.png") !important
+  background-image: url("../assets/curso/tema1/img10.png") !important
   background-position: center
   background-size: 100% 100%
   border-radius: 15px
 
 .bg-fondo-03
-  // background-image: url("../assets/curso/tema1/img31.png") !important
+  background-image: url("../assets/curso/tema1/img31.png") !important
+  background-position: center
+  background-size: cover
+  border-radius: 15px
+
+.bg-fondo-04
+  background-image: url("../assets/curso/tema1/img35.png") !important
+  background-position: center
+  background-size: cover
+  border-radius: 15px
+
+.bg-fondo-05
+  background-image: url("../assets/curso/tema1/img41.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
 
 .bg-fondo-6
-  // background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema2/bg07.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema2/bg07.png") !important
   background-position: center
   background-size: cover
 
@@ -754,6 +772,9 @@ a, button, div
 .bg-color-04
   background-color: #C7D9F9
 
+.bg-color-06
+  background-color: #FCFCFC
+
 // Background colors utilities (Keep used ones)
 .bg-color-1
   background-color: #EAF1FA
@@ -918,30 +939,56 @@ a, button, div
   align-items: center
 
 .titulo-con-imagen__fondo
-  background-color: #FFD07E
+  // dergadado lineal #C7D9F9 y #F0F5FD 180deg
+  background: linear-gradient(to right, #C7D9F9 0%, #F0F5FD 100%)
   border-radius: 18px
   padding: 10px 25px 10px 20px
   display: inline-flex
   align-items: center
   margin-left: -11px
 
-.titulo-con-imagen__imagen
-  position: absolute
-  left: 4px
-  width: 90px
-.titulo-con-imagen__texto
+.titulo-con-imagen__fondo_2
+  // dergadado lineal #C7D9F9 y #F0F5FD 180deg
+  // background: linear-gradient(to right, #C7D9F9 0%, #F0F5FD 100%)
+  border: 1px solid #74A2F2
+  border-radius: 18px
+  padding: 10px 25px 10px 20px
+  display: inline-flex
+  align-items: center
+  margin-left: -11px
+.titulo-con-imagen__texto_2
   margin: 0
-  padding-left: 95px
+  // padding-left: 70px
   position: relative
   &::before
     content: ""
     position: absolute
-    right: -40px
-    bottom: 0%
+    right: -4px
+    bottom: -40%
     transform: translateY(50%)
-    width: 30px
+    width: 40px
     height: 30px
-    // background-image: url("../assets/curso/icono-subtitulo.png")
+    background-image: url("../assets/curso/icono-subtitulo.svg")
+    background-size: 100% 100%
+
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -8px
+  width: 90px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 70px
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    right: -4px
+    bottom: -40%
+    transform: translateY(50%)
+    width: 40px
+    height: 30px
+    background-image: url("../assets/curso/icono-subtitulo.svg")
+    background-size: 100% 100%
 
 .img-topright
   padding: 4.5rem 2rem 3rem !important
@@ -1008,6 +1055,12 @@ a, button, div
   // color: red !important
   // background-color: #12263F !important
   border-radius: 50%
+
+.lista-ul--color li i.fa-square,
+.fa-square
+  color: #74A2F2 !important
+  font-size: 0.65rem !important
+  margin-top: 4px !important
 
 //// Tarjetas --------------------------------------
 .crd
@@ -1261,16 +1314,40 @@ a, button, div
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12) !important
 
 .tabla-a.tb-custom
+  table
+    min-width: 100%
   thead
-    border-color: #AEA30C !important
-    background-color: #FFFAEE !important
+    border-top: 5px solid #2C4668 !important
+    background-color: #DDE4EC !important
+    border-bottom: none !important
+    border-left: none !important
+    border-right: none !important
     th
-      color: $color-sistema-texto !important
+      color: #12263F !important
+      font-size: 1.05em
+      font-weight: 700
+      text-align: center
+      padding: 14px 15px
+      border: none !important
   tbody
+    tr
+      border-bottom: none !important
     tr:nth-child(even)
-      background-color: #F6F6F6
+      background-color: #F3F5F8 !important
     tr:nth-child(odd)
-      background-color: #FFFFFF
+      background-color: #FFFFFF !important
+    td
+      padding: 7px 10px
+      text-align: center
+      border-right: 1px solid #D6DBE1 !important
+      border-left: none !important
+      border-top: none !important
+      border-bottom: none !important
+      &:last-child
+        border-right: none !important
+      &:first-child
+        font-weight: 700
+        color: #12263F
 
 .lista-ol--cuadro__vineta
   background-color: #8AB064
