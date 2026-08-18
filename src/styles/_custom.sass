@@ -114,7 +114,7 @@ figcaption
     .crd_hover_txt--body
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
-      background-color: #FFD07E
+      background-color: #F0F5FD
       // opacity: 0.8
       h4
         color: $color-sistema-texto
@@ -125,7 +125,7 @@ figcaption
     bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #FBA717
+    background-color: #F0F5FD
     &.bg-color-2
       background-color: #DEF1CB
     // text-align: center
@@ -322,6 +322,18 @@ figcaption
   background-size: cover
   border-radius: 15px
 
+.bg-fondo-07
+  background-image: url("../assets/curso/tema2/bg03.png") !important
+  background-position: center
+  background-size: cover
+  border-radius: 15px
+
+.bg-fondo-08
+  background-image: url("../assets/curso/tema2/bg04.png") !important
+  background-position: center
+  background-size: cover
+  border-radius: 15px
+
 .bg-fondo-6
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema2/bg07.png") !important
   background-position: center
@@ -475,12 +487,12 @@ figcaption
 
 // Tabs A
 .tabs-a__tab
-  background-color: #C1CCCA !important
+  background-color: #B5BFCC !important
   white-space: normal
   height: stretch
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #FE8849 !important
-  color: white
+  background-color: #74A2F2 !important
+  color: $color-sistema-texto
 .tabs-a__content-item
   display: flex
   height: fit-content
@@ -557,21 +569,21 @@ figcaption
   width: 1px !important
   height: 70% !important
 .tabs-c__tab--active
-  border-bottom: 4px solid #FE8849 !important
+  border-bottom: 4px solid #74A2F2 !important
   background-color: #FFFFFF !important
   span
     font-weight: bold
     color: #111E61 !important
 .tabs-c__tab--active:before
-  border-top-color: #FE8849 !important
+  border-top-color: #74A2F2 !important
 .tabs-c.color-primario .tabs-c__tab--active
-  border-bottom-color: #FE8849 !important
+  border-bottom-color: #74A2F2 !important
 .tabs-c.color-primario .tabs-c__tab--active:before
-  border-top-color: #FE8849 !important
+  border-top-color: #74A2F2 !important
 .tabs-c.color-acento-botones .tabs-c__tab--active
-  border-bottom-color: #FE8849 !important
+  border-bottom-color: #74A2F2 !important
 .tabs-c.color-acento-botones .tabs-c__tab--active:before
-  border-top-color: #FE8849 !important
+  border-top-color: #74A2F2 !important
 .tabs-c__content-item
   background-color: #F8F8F8 !important
   background-size: cover
@@ -616,13 +628,13 @@ figcaption
 
 /////////////ACORDION/////////////
 .acordion__accion__btn--a
-  background-color: #FBA717 !important
+  background-color: #496081 !important
 
 .acordion__activo
   // background-image: url("../assets/curso/tema2/img19.png") !important
   background-size: cover
   background-position: center
-  background-color: #F7FCF2 !important
+  background-color: #F0F5FD !important
   &.azul
     background-color: #DFF5FB !important
 
@@ -775,6 +787,18 @@ a, button, div
 .bg-color-06
   background-color: #FCFCFC
 
+.bg-color-07
+  background-color: #E2ECFC
+
+.bg-color-08
+  background-color: #F0F5FD
+
+.bg-color-09
+  background-color: #CCF7E9
+
+.bg-color-10
+  background-color: #B5BFCC
+
 // Background colors utilities (Keep used ones)
 .bg-color-1
   background-color: #EAF1FA
@@ -870,7 +894,7 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #FFE6D9
+  background-color: #F0F5FD
   // background-image: url("../assets/curso/tema1/bg04.png") !important
   background-size: cover
   background-position: buttom
@@ -878,13 +902,13 @@ a, button, div
   border: solid 1px transparent !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:before
-  background-color: #FE8849 !important
+  background-color: #74A2F2 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:hover
-  background-color: #FE8849 !important
+  background-color: #74A2F2 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab:hover
-  background-color: #FE8849 !important
+  background-color: #74A2F2 !important
   color: #fff !important
 
   //////////////CUSTON SLYDER-A////////
@@ -1023,8 +1047,8 @@ a, button, div
 .acordion .tarjeta .acordion__contenido
   padding-left: 0px !important
 .acordion__accion__btn--b
-  background-color: #FBA717 !important
-  border: 1px solid #FBA717 !important
+  background-color: #496081 !important
+  border: 1px solid #496081 !important
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
   color: #FFF
 
@@ -1148,16 +1172,22 @@ a, button, div
     display: none
 
 .tarjeta-numerada.color-primario .tarjeta-numerada__numero
-  border: 4px #FFFFFF solid
-  background-color: #E5EFFB
+  border: 3px #74A2F2 solid
 
 .tarjeta-numerada.color-primario .tarjeta-numerada__numero div
   color: #12263F
 
 .tarjeta-numerada.color-primario
-  background-color: #F0F3FD
-  border: 4px #17C1C1 solid
+  border: 3px #74A2F2 solid
 
+.tarjeta-numerada.color-secundario
+  border: 3px #B5BFCC solid
+  .tarjeta-numerada__numero
+    border: 3px #B5BFCC solid
+    background-color: #B5BFCC
+  .tarjeta-numerada__numero div
+    color: #12263F
+    background-color: #B5BFCC
 .lista-ul--separador li
   border-bottom: dashed 1px #B0C0D2 !important
 
@@ -1227,10 +1257,10 @@ a, button, div
   border: 4px solid #FFFFFF !important
 
 .slyder-f .slyder-f__btn
-  background-color: #FBA717
+  background-color: #1F3F5F
 
 .slyder-f .slyder-f__btn .fa-chevron-left, .slyder-f .slyder-f__btn .fa-chevron-right
-  color: $color-sistema-texto !important
+  color: #FFFFFF !important
 
 ///// slyder --------------------------------------
 .tarjeta--slyder
@@ -1298,17 +1328,17 @@ a, button, div
   text-align: left !important
 
 .audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn
-  background-color: #FFD561 !important
+  background-color: #FFA448 !important
   color: #12263F
 
 .tarjeta-audio.color-acento-contenido .tarjeta-audio__input input[type=range]
-  background: #FFD561 !important
+  background: #74A2F2 !important
 .tarjeta-audio.color-acento-contenido .tarjeta-audio__tiempo
   color: $color-sistema-texto
 .tarjeta-audio.color-acento-contenido .tarjeta-audio__texto
   color: $color-sistema-texto
 .tarjeta-audio.color-acento-contenido
-  border-color: #FFD561
+  border-color: #FFA448
 
 .shadow-sm
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12) !important
@@ -1351,3 +1381,8 @@ a, button, div
 
 .lista-ol--cuadro__vineta
   background-color: #8AB064
+
+.max-cont-md
+  width: max-content
+  @media screen and (max-width: $bp-max-md)
+    width: auto
