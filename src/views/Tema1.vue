@@ -25,7 +25,7 @@
       p.mb-5 Para comprender los sistemas de medición es necesario diferenciar estos dos conceptos.
 
       .row.align-items-center.mb-5
-        .col-lg-6
+        .col-lg-6.mb-4.mb-lg-0
           .container
             .row.align-items-center.bg-color-01.p-4.mb-0.br-15
               .col-lg-auto.d-none.d-lg-block
@@ -67,7 +67,7 @@
       .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
         figure
           img(src="@/assets/curso/tema1/img09.png", data-aos="zoom-in")
-      .col-lg-8.order-1.order-lg-2.mb-0.mb-lg-0
+      .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0
         p.mb-2(data-aos="fade-right") Los instrumentos permiten determinar el valor de una variable. Para interpretar sus resultados es necesario conocer algunas características, entre ellas:
 
         .bg-color-05-degrade.p-4.br-15.mb-0
@@ -90,7 +90,7 @@
 
 
     
-    .row.align-items-center.mb-5(data-aos="fade-right")
+    .row.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10.mx-auto
         .bg-fondo-02.br-15.mb-4.p-4
           .col-9.ms-lg-2.ms-0
@@ -118,7 +118,7 @@
       .col-lg-3.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
         figure
           img(src="@/assets/curso/tema1/img12.png", data-aos="zoom-in")
-      .col-lg-9.order-1.order-lg-1.mb-0.mb-lg-0
+      .col-lg-9.order-1.order-lg-1.mb-4.mb-lg-0
         p.mb-3 La instrumentación industrial reúne elementos destinados a medir y obtener información sobre las variables de un proceso.
 
         p.mb-3 En estos sistemas participan instrumentos, sensores y otros dispositivos que permiten captar información y ponerla a disposición de sistemas electrónicos.
@@ -127,7 +127,7 @@
 
 
         .container
-          .row.align-items-center.bg-color-02.p-4.mb-0.br-15(style="width: max-content;")
+          .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
             .col-lg
@@ -163,7 +163,7 @@
       p.mb-5 En los procesos industriales se utilizan diferentes magnitudes de acuerdo con las características de cada operación.
 
       .row.mb-5.justify-content-center.align-items-center
-        .col-lg-6  
+        .col-lg-6.mb-4.mb-lg-0  
           .titulo-sexto.color-acento-contenido.mb-3
             h5 
               b Tabla 1.
@@ -229,41 +229,41 @@
     p.mb-4 Los instrumentos se seleccionan de acuerdo con la magnitud que se desea medir, el intervalo de valores esperado y las condiciones propias del proceso.
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-6.mb-0.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0
         .bg-color-05-degrade.p-3.br-15.mb-0
           p.mb-1(data-aos="fade-right") En una aplicación industrial pueden encontrarse instrumentos destinados a medir:
           .row
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Temperatura
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Presión 
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Masa
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Longitud
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Velocidad
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Nivel
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
@@ -379,14 +379,14 @@
     p.mb-4 La diferencia entre rango y SPAN es importante:
 
     .row.align-items-center.mb-4.justify-content-center
-      .col-lg-6
-        .bg-color-05-degrade.p-2.br-15.mb-3
+      .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+        .bg-color-05-degrade.p-2.br-15.mb-4.mb-lg-3
           ul.lista-ul--color.mb-0.p-2
             li.d-flex.mb-0 
               i.fas.fa-solid.fa-square.me-2
               span El rango indica desde qué valor hasta qué valor puede realizarse la medición.
 
-        .bg-color-05-degrade.p-2.br-15.mb-3
+        .bg-color-05-degrade.p-2.br-15.mb-4.mb-lg-3
           ul.lista-ul--color.mb-0.p-2
             li.d-flex.mb-0 
               i.fas.fa-solid.fa-square.me-2
@@ -395,7 +395,7 @@
         figure.mb-0
           img(src="@/assets/curso/tema1/img26.png", alt="Representación del rango").mx-auto
 
-      .col-lg-6
+      .col-lg-6.order-1.order-lg-2
         .row.justify-content-center.mb-4
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 1.
@@ -419,7 +419,7 @@
 
 
     .row.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         .container
           .row.align-items-center.bg-color-01.p-4.mb-0.br-15
             .col-lg-auto.d-none.d-lg-block
@@ -458,7 +458,7 @@
             h3.titulo-con-imagen__texto_2 Error del instrumento de medida
             
       .row.align-items-center.justify-content-center.mb-5
-        .col-lg-4
+        .col-lg-4.mb-4.mb-lg-0
           p.mb-2 El material de formación presenta el error del instrumento de medida mediante la expresión:
           .br-01.h-100.p-3.align-content-center
             .row.align-items-center
@@ -469,12 +469,12 @@
                 p.mb-0.text-bold VM: valor medido.
                 p.mb-0.text-bold VR: valor real.
 
-        .col-lg-3
+        .col-lg-3.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/img29.png', alt='').mx-auto
 
         .col-lg-5
-          p.mb-2 El error representa la diferencia entre el valor registrado por el instrumento y el valor real de la variable.
+          p.mb-3.mb-lg-2 El error representa la diferencia entre el valor registrado por el instrumento y el valor real de la variable.
           .bg-color-02.br-15.h-100.p-3.align-content-center
 
             .row.align-items-center
@@ -507,7 +507,7 @@
       //-       h3.titulo-con-imagen__texto Exactitud
       
       .row.mb-5.justify-content-center.align-items-center
-        .col-lg-4.mb-4.mb-lg-0.col-md-8.order-1.order-lg-1
+        .col-lg-4.mb-4.mb-lg-0.col-md-12.order-1.order-lg-1
           p.mb-4 La exactitud constituye una característica fundamental de los instrumentos de medida y se relaciona con la proximidad entre el valor medido y el valor real.
           p.mb-0 Para comprender su aplicación, se analiza el siguiente caso, tomado de la estructura del ejemplo práctico del material de formación.
 
@@ -516,7 +516,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-3.mx-auto
                 figure.mb-0
-                  img(src="@/assets/curso/tema1/img30.png").mx-auto
+                  img(src="@/assets/curso/tema1/img30.png").mx-auto.w-md-50
               .col-lg-9.p-3
                 .bg-white.br-10.p-0
                   SlyderF(columnas="col-lg-12 col-xl-12 col-md-12 col-sm-12 p-2")
@@ -550,7 +550,7 @@
       .col-lg-3.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
         figure
           img(src="@/assets/curso/tema1/img32.png", data-aos="zoom-in")
-      .col-lg-9.order-1.order-lg-2.mb-0.mb-lg-0
+      .col-lg-9.order-1.order-lg-2.mb-4.mb-lg-0
         p.mb-3 Este ejemplo permite observar cómo las características del instrumento intervienen directamente en la interpretación del resultado de una medición. 
 
         .container
@@ -570,7 +570,7 @@
           
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-6.mb-0.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0
         p.mb-3(data-aos="fade-right") En términos de medición, la resolución se relaciona con la capacidad de distinguir o representar variaciones de la magnitud que se está midiendo.
         .bg-color-05-degrade.p-3.br-15.mb-0
           p.mb-1 Por ejemplo, considérese la lectura de dos instrumentos:
@@ -584,7 +584,7 @@
               span Instrumento B: 25,1 °C
 
       .col-lg-6
-        .row.align-items-center.mb-4
+        .row.align-items-center.mb-0
           .col-lg-auto.col-12.mb-2
             img.d-none.d-lg-flex(src="@/assets/curso/tema1/img34.svg", style="max-width: 90px").mx-auto
           .col-lg-12
@@ -618,12 +618,12 @@
           
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         p.mb-2 El material de formación incorpora como parte del estudio inicial las magnitudes y algunos prefijos relacionados con el Sistema Internacional. 
         p.mb-2 Los prefijos permiten expresar cantidades de diferente orden de magnitud sin modificar la naturaleza de la unidad.
         p.mb-0 Algunos ejemplos son:
 
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 
             b Tabla 2.
@@ -662,7 +662,7 @@
                 td m
                 td 10⁻³
 
-      .col-lg-3
+      .col-lg-3.col-md-8
         figure.mb-0
           img(src="@/assets/curso/tema1/img37.png", alt="").mx-auto
 
@@ -695,7 +695,7 @@
 
 
       .row.mb-5.justify-content-center.align-items-center
-        .col-lg-6.mb-0.mb-lg-0
+        .col-lg-6.mb-4.mb-lg-0
           .bg-color-05-degrade.p-3.br-15.mb-0
             p.mb-1 En una aplicación industrial pueden requerirse diferentes tipos de información:
 
@@ -747,7 +747,7 @@
           p.mb-0 En un sistema de instrumentación, la información puede seguir una secuencia general:
       
       .row.mb-5.justify-content-center.align-items-stretch
-        .col-lg-6.mb-0.mb-lg-0
+        .col-lg-6.mb-4.mb-lg-0
           .bg-color-05-degrade.p-4.br-15.mb-0(style="height: 100%;")
             ul.lista-ul--color.mb-0
               li.d-flex.mb-0 
@@ -780,16 +780,16 @@
           h3.titulo-con-imagen__texto_2 Aplicación de la medición en un proceso industrial
           
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.mb-4.mb-lg-0.col-md-8.order-1.order-lg-1
+      .col-lg-3.mb-4.mb-lg-0.col-md-12.order-1.order-lg-1
         p.mb-3 Considérese un proceso en el que un equipo debe operar dentro de un intervalo determinado de temperatura.
         p.mb-0 Antes de seleccionar un instrumento se deben establecer las condiciones de medición.
 
       .col-lg-9.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0
         .bg-fondo-03.p-2
           .row.align-items-center.justify-content-center
-            .col-lg-3.mx-auto
+            .col-lg-3.mx-auto.col-md-8
               figure.mb-0
-                img(src="@/assets/curso/tema1/img40.png").mx-auto
+                img(src="@/assets/curso/tema1/img40.png").mx-auto.w-md-50
             .col-lg-9.p-3
               .bg-white.br-10.p-0
                 SlyderF(columnas="col-lg-12 col-xl-12 col-md-12 col-sm-12 p-2")

@@ -21,7 +21,7 @@
           p.mb-3 La función de estos elementos puede comprenderse a partir de una secuencia general:
 
           .container
-            .row.align-items-center.bg-color-02.p-4.mb-0.br-15(style="width: max-content;")
+            .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
               .col-lg-auto.d-none.d-lg-block
                 img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
               .col-lg
@@ -108,7 +108,7 @@
         p.mb-3 Esta relación puede representarse así:
 
         .container
-          .row.align-items-center.bg-color-02.p-4.mb-0.br-15
+          .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
             .col-lg
@@ -347,7 +347,7 @@
 
 
     .container.mb-4
-      .row.align-items-center.bg-color-02.p-4.mb-0.br-15(style="width: max-content;")
+      .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
         .col-lg
@@ -391,7 +391,7 @@
       .row.mb-4.justify-content-center.align-items-center
         .col-lg-5.col-md-12.mb-4.mb-lg-0.order-2.order-lg-1
           .container
-            .row.align-items-center.bg-color-02.p-4.mb-0.br-15
+            .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
               .col-lg-auto.d-none.d-lg-block
                 img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
               .col-lg

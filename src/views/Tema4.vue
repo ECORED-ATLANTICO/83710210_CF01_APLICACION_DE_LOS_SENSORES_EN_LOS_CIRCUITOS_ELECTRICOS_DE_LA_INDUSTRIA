@@ -185,10 +185,17 @@
 
     .row.mb-5.align-items-center
       .col-lg-7.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center
+        .bg-color-02.p-3.br-15.d-flex.align-items-center.d-none.d-lg-flex
           span.me-3.text-nowrap La relación puede representarse:
           i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
           p.mb-0.fw-bold señal de entrada &rarr; transductor &rarr; señal de salida
+        .bg-color-02.p-3.br-15.align-items-center.d-lg-none
+          .row
+            .col-lg-2.col-md-12.mb-2
+              p.mb-2 La relación puede representarse:
+            .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
+              i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+              p.mb-0.fw-bold señal de entrada &rarr; transductor &rarr; señal de salida
 
       .col-lg-5
         p.mb-0 Esta estructura permite comprender por qué el transductor ocupa una posición intermedia entre la captación de la variable y el sistema electrónico.
@@ -270,10 +277,18 @@
             .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 5
             p.mb-0 El sistema electrónico recibe el código y puede procesarlo.
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-3.d-flex.align-items-center.max-cont-md
+    .bg-color-02.p-3.p-md-4.br-15.mb-3.d-lg-flex.align-items-center.d-none.d-lg-block
       span.me-3.text-nowrap La secuencia queda establecida como:
       i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
       p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; sistema electrónico
+
+    .bg-color-02.p-3.p-md-4.br-15.mb-3.align-items-center.d-lg-none
+      .row
+        .col-lg-2.col-md-12.mb-2
+          p.mb-2 La secuencia queda establecida como:
+        .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
+          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+          p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; sistema electrónico
 
     p.mb-4 La conversión permite establecer un vínculo entre el comportamiento continuo de una variable física y la representación digital utilizada por el sistema electrónico.
 
@@ -345,10 +360,19 @@
             p.mb-0 El resultado es un código binario.
           .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #48D1B1; margin-left: -5px;") 3
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md
+    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md.d-none.d-lg-block
       span.me-3.fw-bold.text-nowrap Puede representarse así:
       i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
       p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; ADC &rarr; Código binario &rarr; Sistema electrónico
+
+    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.d-lg-none
+      .row
+        .col-lg-2.col-md-12.mb-2
+          p.mb-2 Puede representarse así:
+        .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
+          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+          p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; ADC &rarr; Código binario &rarr; Sistema electrónico
+
 
     p.mb-5 Esta secuencia permite relacionar los contenidos desarrollados anteriormente sobre variables análogas, señales análogas, señales digitales y señales binarias.
 

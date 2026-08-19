@@ -79,7 +79,7 @@
 
         p.mb-0 Cuando una variable es captada por un sensor, la información obtenida debe representarse mediante una señal que pueda ser utilizada por el sistema electrónico.
 
-      .col-lg-5.mb-4.mb-lg-0.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-lg-2.col-md-12
         .bg-color-0.p-4.br-15.h-100
           p.mb-4 Por ejemplo, en un proceso de calentamiento, la temperatura constituye la variable que se desea conocer.
           
@@ -150,17 +150,17 @@
     
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.col-md-12.mb-4.mb-lg-0
+      .col-lg-12.col-xl-3.col-md-12.mb-4.mb-lg-4.mb-xl-0
         p.mb-3 Una señal análoga presenta valores que pueden variar de manera continua dentro de un intervalo.
         p.mb-0 Cuando una variable física cambia, la señal asociada puede cambiar de manera proporcional o relacionada con dicha variación.
 
-      .col-lg-9.col-md-12.mb-0.mb-lg-0
+      .col-lg-12.col-xl-9.col-md-12.mb-0.mb-lg-0
         .bg-color-0.p-4.br-15
           .row.align-items-center.justify-content-around
             .col-lg-4.col-md-12.mb-3.mb-lg-0
               p.mb-0 Por ejemplo, si un sensor produce una señal de tensión relacionada con la temperatura, diferentes temperaturas pueden generar diferentes valores de tensión:
 
-            .col-lg-3.col-md-12.col-6.mb-3.mb-lg-0
+            .col-lg-3.col-md-12.mb-3.mb-lg-0
               .p-3.br-15(style="border: 2px solid #5C84CE; background-color: #EBF7FF;")
                 .row.text-start.g-2
                   .col-7
@@ -184,14 +184,15 @@
                 img(src="@/assets/curso/tema3/img12.svg", style="max-width: 85px;").mx-auto
 
     .row.align-items-center.mb-4.justify-content-center
-      .col-lg-8
-        .row.justify-content-center.mb-4
+      .col-lg-8.col-md-12
+        .row.justify-content-center.mb-0
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 2.
             span Señal
           img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img13.svg", alt="").mx-auto.d-none.d-lg-block
           img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img14.svg", alt="").mx-auto.d-lg-none
           figcaption Nota. SENA, (2026).
+    
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
         .titulo-con-imagen__fondo_2

@@ -276,10 +276,18 @@
         p.mb-2 Esta señal puede activar un relé.
         p.mb-0 El relé puede modificar el estado de otro circuito.
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-5.d-flex.align-items-center.max-cont-md
+    .bg-color-02.p-3.p-md-4.br-15.mb-5.d-flex.align-items-center.max-cont-md.d-none.d-lg-block
       span.me-3.text-nowrap La secuencia puede representarse:
       i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
       p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
+
+    .bg-color-02.p-3.p-md-4.br-15.mb-5.d-flex.align-items-center.d-lg-none
+      .row
+        .col-lg-2.col-md-12.mb-2
+          p.mb-2 La secuencia puede representarse:
+        .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
+          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+          p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
 
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
@@ -293,7 +301,7 @@
           p.mb-3 El sistema decimal utiliza diez símbolos:
           .row.align-items-center.mb-0
             .col-sm-5
-              .bg-color-02.p-3.br-15.text-center.mb-0.max-cont-md
+              .bg-color-02.p-3.br-15.text-center.mb-2.mb-lg-0.max-cont-md
                 p.mb-0.fw-bold 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9.
             .col-sm-5
               p.mb-0 El sistema binario utiliza únicamente dos símbolos:
@@ -456,10 +464,18 @@
 
     .row.mb-5.align-items-center
       .col-lg-8.mb-3.mb-lg-0
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.max-cont-md
+        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.max-cont-md.d-none.d-lg-block
           span.me-3.text-nowrap La secuencia puede resumirse así:
           i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
           p.mb-0.fw-bold Captación &rarr; comparación &rarr; decisión &rarr; activación &rarr; acción
+      
+        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.d-lg-none
+          .row
+            .col-lg-2.col-md-12.mb-2
+              p.mb-2 La secuencia puede resumirse así:
+            .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
+              i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+              p.mb-0.fw-bold Captación &rarr; comparación &rarr; decisión &rarr; activación &rarr; acción
       .col-lg-4
         p.mb-0 Este principio constituye una aplicación básica de la utilización de sensores en sistemas de control.
 
