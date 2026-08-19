@@ -7,7 +7,7 @@
         span 5
       h1 Sistemas electrónicos básicos de control
 
-    .bloque-texto-g.bg-color-04.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/img01.png')})`}"
       )

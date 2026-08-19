@@ -137,7 +137,7 @@
 
     p.mb-5 En los procesos industriales es necesario conocer el comportamiento de diferentes variables para verificar las condiciones de operación, detectar cambios y tomar decisiones relacionadas con el funcionamiento de máquinas y procesos.
 
-    .bloque-texto-g.bg-color-04.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema1/img14.png')})`}"
       )

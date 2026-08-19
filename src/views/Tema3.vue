@@ -96,7 +96,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Variable análoga
 
-    .bloque-texto-g.bg-color-01.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bg-color-01.p-3.p-sm-3.p-md-3.p-lg-4.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema3/img03.png')})`}"
       )

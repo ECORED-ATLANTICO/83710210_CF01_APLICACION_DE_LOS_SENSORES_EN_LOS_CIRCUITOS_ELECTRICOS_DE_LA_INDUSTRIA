@@ -184,7 +184,7 @@
         .bg-color-0.p-4.br-15.h-100
           p.mb-0 La señal de salida corresponde a la información resultante después de la transformación o adaptación.
 
-    .bloque-texto-g.bg-color-01.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-01.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img07.png')})`}"
       )
@@ -338,7 +338,7 @@
       .col-lg
         p.mb-0.fw-bold Posición de la pieza &rarr; sensor &rarr; señal &rarr; transductor &rarr; señal adecuada &rarr; sistema electrónico &rarr; procesamiento
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg-color-04.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img16.png')})`}"
       )

@@ -7,7 +7,7 @@
         span 2
       h1 Sensores, transductores y captadores
     
-    .bloque-texto-g.bg-color-10.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-10.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img01.png')})`}"
       )
@@ -474,7 +474,7 @@
         .titulo-con-imagen__fondo_2
           h3.titulo-con-imagen__texto_2 Transductores electromecánicos
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg-color-09.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-09.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img16.png')})`}"
       )
