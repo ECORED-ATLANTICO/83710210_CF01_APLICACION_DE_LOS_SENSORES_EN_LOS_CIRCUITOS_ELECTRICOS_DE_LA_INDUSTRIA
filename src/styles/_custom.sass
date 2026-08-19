@@ -296,10 +296,14 @@ figcaption
   border-radius: 15px
 
 .bg-fondo-02
+  position: relative
   background-image: url("../assets/curso/tema1/img10.png") !important
   background-position: center
   background-size: 100% 100%
   border-radius: 15px
+  width: 92%
+  @media screen and (max-width: $bp-max-md)
+    width: 100%
 
 .bg-fondo-03
   background-image: url("../assets/curso/tema1/img31.png") !important
@@ -1414,3 +1418,20 @@ a, button, div
 @media (max-width: 992px)
   .bloque-texto-g
     padding-top: 30% !important
+
+.bg-fondo-02:before
+  content: ""
+  position: absolute
+  right: -5rem
+  top: 50%
+  transform: translateY(-50%)
+  width: 25%
+  aspect-ratio: 749 / 528
+  background-image: url("../assets/curso/tema1/img11.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: right center
+  z-index: 1
+
+  @media screen and (max-width: $bp-max-md)
+    display: none

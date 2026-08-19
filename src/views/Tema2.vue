@@ -278,11 +278,11 @@
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10.mx-auto
         .bg-fondo-02.br-15.mb-4.p-4
-          .col-9.ms-lg-2.ms-0
-            p.mb-2 <b>Ejemplo de aplicación</b>
+          .col-lg-9.col-12
+            p.mb-2.fw-bold Ejemplo de aplicación:
             p.mb-1 En una máquina, un elemento móvil debe detenerse cuando llega al final de su recorrido.
             p.mb-2 La secuencia puede representarse:
-            p.mb-0.text-bold Movimiento → llegada a posición → accionamiento del final de carrera → cambio de contactos → señal para el sistema
+            p.mb-0.fw-bold Movimiento &rarr; llegada a posición &rarr; accionamiento del final de carrera &rarr; cambio de contactos &rarr; señal para el sistema
 
         p.mb-0 Este tipo de aplicación permite relacionar la posición física de un elemento con una acción posterior del sistema.
 

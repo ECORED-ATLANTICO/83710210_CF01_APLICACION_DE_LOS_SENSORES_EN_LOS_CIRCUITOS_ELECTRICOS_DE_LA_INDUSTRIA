@@ -93,11 +93,11 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10.mx-auto
         .bg-fondo-02.br-15.mb-4.p-4
-          .col-9.ms-lg-2.ms-0
-            p.mb-2 <b>Ejemplo de aplicación</b>
+          .col-lg-9.col-12
+            p.mb-2.fw-bold Ejemplo de aplicación:
             p.mb-2 Un instrumento utilizado para medir temperatura presenta un límite inferior de 100 °C y un límite superior de 300 °C.
-            p.mb-2 <b>Rango</b>: 100 °C – 300 °C
-            p.mb-0 <b>SPAN</b>: 300 °C − 100 °C = 200 °C
+            p.mb-1 <b>Rango:</b> 100 °C – 300 °C
+            p.mb-0 <b>SPAN:</b> 300 °C – 100 °C = 200 °C
 
 
         p.mb-0 Si el instrumento presenta una exactitud de ±0,5 % del SPAN, la exactitud corresponde a ±1 °C. Para una lectura de 250 °C, el valor real podría encontrarse entre 249 °C y 251 °C.
