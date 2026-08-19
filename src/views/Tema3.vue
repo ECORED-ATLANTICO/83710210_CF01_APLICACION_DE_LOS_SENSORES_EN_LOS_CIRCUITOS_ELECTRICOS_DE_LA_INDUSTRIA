@@ -477,10 +477,17 @@
 
     .row.mb-5.align-items-center
       .col-lg-6.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center
+        .bg-color-02.p-3.br-15.d-flex.align-items-center.d-none.d-lg-flex
           span.me-3.fw-bold.text-nowrap El principio general es:
           i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
           p.mb-0.fw-bold Valor análogo &rarr; conversión &rarr; código binario
+        .bg-color-02.p-3.br-15.d-flex.align-items-center.d-lg-none
+          .row
+            .col-12.mb-2
+              span.me-3.fw-bold.text-nowrap El principio general es:
+            .col-12.d-flex.align-items-center
+              i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+              p.mb-0.fw-bold Valor análogo &rarr; conversión &rarr; código binario
 
       .col-lg-6
         p.mb-0 La cantidad de valores digitales que puede representar el conversor depende de su resolución. Por ello, los conceptos estudiados anteriormente sobre medida, resolución y exactitud se relacionan directamente con la adquisición de señales.
