@@ -763,7 +763,7 @@
         .col-lg-5.mb-4.mb-lg-0.col-md-12.order-1.order-lg-1.p-0.p-lg-2.p-xl-0
           figure
             img(src="@/assets/curso/tema2/img32.png", data-aos="zoom-in")
-        .col-lg-7.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0.p-lg-3.p-xl-0.p-3
+        .col-lg-7.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0.p-lg-3.p-xl-2.p-3
           p.mb-0 En los procesos industriales es necesario obtener información confiable sobre las variables que intervienen en el funcionamiento de un proceso. Para ello, la medición y el uso de sensores permiten identificar diferentes condiciones físicas y transformarlas en señales que pueden ser interpretadas por sistemas de instrumentación y control.
 
     p.mb-4 En el siguiente podcast se abordará la relación entre variable física, medición, sensor, transductor y señal, destacando la función que cumple cada elemento dentro del proceso de instrumentación industrial.
