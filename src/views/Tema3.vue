@@ -83,9 +83,11 @@
         .bg-color-0.p-4.br-15.h-100
           p.mb-4 Por ejemplo, en un proceso de calentamiento, la temperatura constituye la variable que se desea conocer.
           
-          .bg-color-02.p-3.br-15.mb-4.d-flex.align-items-center
-            i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-            p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal
+          .row.align-items-center.bg-color-02.p-4.br-15.mb-4
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal
 
           p.mb-0 La señal constituye entonces la representación de la información asociada con la variable.
 
@@ -105,9 +107,11 @@
 
     .row.mb-5.justify-content-center.align-items-stretch
       .col-lg-5.mb-4.mb-lg-0
-        .bg-color-02.p-3.p-md-4.br-15.h-100.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold 20 °C &rarr; 20,5 °C &rarr; 21 °C &rarr; 21,5 °C &rarr; 22 °C
+        .row.align-items-center.bg-color-02.p-3.p-md-4.br-15.h-100
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold 20 °C &rarr; 20,5 °C &rarr; 21 °C &rarr; 21,5 °C &rarr; 22 °C
 
       .col-lg-7.mb-0.mb-lg-0
         .bg-color-0.p-3.p-md-4.br-15.h-100.d-flex.align-items-center
@@ -128,9 +132,11 @@
         p.mb-2 En un sistema de adquisición, el sensor capta una condición física y genera una señal que puede ser utilizada posteriormente por el sistema electrónico.
         p.mb-3 La señal puede representar diferentes características de la variable dependiendo del tipo de sensor y del sistema utilizado.
 
-        .bg-color-02.p-3.br-15.mb-0.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable física &rarr; captación &rarr; señal
+        .row.align-items-center.bg-color-02.p-4.br-15.mb-0.max-cont-md
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Variable física &rarr; captación &rarr; señal
 
     .row.align-items-center(data-aos="fade-right")
       .col-lg-10.mx-auto
@@ -350,9 +356,11 @@
         p.mb-2 El material de formación lo describe como un circuito que toma valores analógicos de tensión y los convierte en códigos binarios.
         p.mb-3 La función puede representarse de la siguiente manera:
 
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Señal análoga &rarr; Conversor análogo-digital &rarr; Código binario &rarr; Sistema electrónico
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Señal análoga &rarr; Conversor análogo-digital &rarr; Código binario &rarr; Sistema electrónico
     
     p.mb-5 Por ejemplo, una señal de tensión proveniente de un sensor puede ser recibida por el conversor y transformada en un código binario que posteriormente pueda ser interpretado por el sistema electrónico.
 
@@ -462,9 +470,11 @@
         p.mb-2 Si el sistema requiere procesar esta información digitalmente, la señal debe convertirse a un código binario.
         p.mb-3 La secuencia puede expresarse así:
 
-        .bg-color-02.p-3.p-md-4.br-15.mb-3.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; Conversor análogo digital &rarr; Código binario &rarr; Procesamiento electrónico
+        .row.align-items-center.bg-color-02.p-4.br-15.mb-3
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; Conversor análogo digital &rarr; Código binario &rarr; Procesamiento electrónico
 
         p.mb-2 Este proceso permite comprender la relación entre la variable física, la señal y la información digital.
         p.mb-0.fw-bold Ejemplo de conversión
@@ -477,17 +487,13 @@
 
     .row.mb-5.align-items-center
       .col-lg-6.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center.d-none.d-lg-flex
-          span.me-3.fw-bold.text-nowrap El principio general es:
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Valor análogo &rarr; conversión &rarr; código binario
-        .bg-color-02.p-3.br-15.d-flex.align-items-center.d-lg-none
-          .row
-            .col-12.mb-2
-              span.me-3.fw-bold.text-nowrap El principio general es:
-            .col-12.d-flex.align-items-center
-              i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-              p.mb-0.fw-bold Valor análogo &rarr; conversión &rarr; código binario
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-12.mb-2
+            span.fw-bold El principio general es:
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Valor análogo &rarr; conversión &rarr; código binario
 
       .col-lg-6
         p.mb-0 La cantidad de valores digitales que puede representar el conversor depende de su resolución. Por ello, los conceptos estudiados anteriormente sobre medida, resolución y exactitud se relacionan directamente con la adquisición de señales.
@@ -570,9 +576,11 @@
         .bg-color-05-degrade.p-4.br-15.h-100
           p.mb-3 La secuencia puede representarse:
 
-          .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center
-            i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-            p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; procesamiento
+          .row.align-items-center.bg-color-02.p-4.br-15.mb-4
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; procesamiento
 
           p.mb-0 Este proceso constituye una de las bases para la adquisición electrónica de variables industriales.
 

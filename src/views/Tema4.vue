@@ -24,9 +24,11 @@
         p.mb-2 La adquisición constituye, por tanto, una etapa en la que la información física del proceso es captada y transformada en una señal que puede ser recibida y procesada por un sistema electrónico.
         p.mb-3 La estructura básica puede representarse así:
 
-        .bg-color-02.p-3.p-md-4.br-15.mb-3.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable física &rarr; sensor &rarr; transductor &rarr; sistema electrónico
+        .row.align-items-center.bg-color-02.p-4.br-15.mb-3.max-cont-md
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Variable física &rarr; sensor &rarr; transductor &rarr; sistema electrónico
 
         p.mb-0 Cada elemento cumple una función específica dentro del proceso de adquisición.
 
@@ -67,9 +69,11 @@
 
     p.mb-4 La relación entre estos elementos permite establecer una cadena de adquisición:
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Proceso &rarr; Variable física &rarr; Sensor &rarr; Transductor &rarr; Señal para el sistema &rarr; Sistema electrónico
+    .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+      .col-lg-auto.d-none.d-lg-block
+        img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p.mb-0.fw-bold Proceso &rarr; Variable física &rarr; Sensor &rarr; Transductor &rarr; Señal para el sistema &rarr; Sistema electrónico
 
     p.mb-5 Esta estructura constituye la base para comprender cómo una variable física puede convertirse en información utilizable por un sistema electrónico.
 
@@ -107,9 +111,11 @@
       .col-lg-2.col-md-12.mb-3.mb-lg-0
         p.mb-0 La secuencia puede expresarse como:
       .col-lg-6.col-md-12.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable &rarr; captación &rarr; adaptación &rarr; señal &rarr; procesamiento
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Variable &rarr; captación &rarr; adaptación &rarr; señal &rarr; procesamiento
       .col-lg-4.col-md-12
         p.mb-0 Reconocer la función de cada elemento permite comprender el recorrido que sigue la información desde el proceso hasta el sistema electrónico.
 
@@ -127,7 +133,7 @@
           .bg-color-02.p-3.br-15.text-center
             p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal
       .col-lg-3.col-md-6
-        .bg-color-01.p-3.br-15.h-100
+        .bg-color-12.p-3.br-15.h-100
           p.mb-3 Si se requiere detectar una posición:
           .bg-color-02.p-3.br-15.text-center
             p.mb-0.fw-bold Posición &rarr; sensor &rarr; señal
@@ -155,9 +161,11 @@
       .col-lg-5.mb-3.mb-lg-0
         p.mb-0 De esta manera, la adquisición no consiste simplemente en conectar un sensor a un sistema electrónico. Es necesario considerar la relación entre:
       .col-lg-7.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
+        .row.align-items-center.bg-color-02.p-4.br-15.max-cont-md
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
 
     p.mb-5 El tipo de transformación dependerá de las características de la variable, del sensor utilizado y de los requerimientos del sistema electrónico.
 
@@ -185,17 +193,13 @@
 
     .row.mb-5.align-items-center
       .col-lg-7.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center.d-none.d-lg-flex
-          span.me-3.text-nowrap La relación puede representarse:
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold señal de entrada &rarr; transductor &rarr; señal de salida
-        .bg-color-02.p-3.br-15.align-items-center.d-lg-none
-          .row
-            .col-lg-2.col-md-12.mb-2
-              p.mb-2 La relación puede representarse:
-            .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
-              i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-              p.mb-0.fw-bold señal de entrada &rarr; transductor &rarr; señal de salida
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-lg-3.mb-2
+            span La relación puede representarse:
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold señal de entrada &rarr; transductor &rarr; señal de salida
 
       .col-lg-5
         p.mb-0 Esta estructura permite comprender por qué el transductor ocupa una posición intermedia entre la captación de la variable y el sistema electrónico.
@@ -238,9 +242,11 @@
 
     .row.mb-5.align-items-center
       .col-lg-8.mb-3.mb-lg-0
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Señal análoga &rarr; Conversor análogo-digital &rarr; Código binario &rarr; Sistema digital
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Señal análoga &rarr; Conversor análogo-digital &rarr; Código binario &rarr; Sistema digital
       .col-lg-4
         p.mb-0 El proceso permite que una señal asociada con una variable física pueda ser representada mediante información digital.
 
@@ -277,18 +283,13 @@
             .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 5
             p.mb-0 El sistema electrónico recibe el código y puede procesarlo.
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-3.d-lg-flex.align-items-center.d-none.d-lg-block
-      span.me-3.text-nowrap La secuencia queda establecida como:
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; sistema electrónico
-
-    .bg-color-02.p-3.p-md-4.br-15.mb-3.align-items-center.d-lg-none
-      .row
-        .col-lg-2.col-md-12.mb-2
-          p.mb-2 La secuencia queda establecida como:
-        .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; sistema electrónico
+    .row.align-items-center.bg-color-02.p-4.br-15.mb-3
+      .col-lg-2.mb-2
+        span La secuencia queda establecida como:
+      .col-lg-auto.d-none.d-lg-block
+        img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p.mb-0.fw-bold Temperatura &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; sistema electrónico
 
     p.mb-4 La conversión permite establecer un vínculo entre el comportamiento continuo de una variable física y la representación digital utilizada por el sistema electrónico.
 
@@ -309,10 +310,13 @@
 
     .row.mb-4.align-items-center
       .col-lg-7.col-md-12.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center
-          span.me-3.text-nowrap Por ejemplo:
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable &rarr; adquisición &rarr; información &rarr; procesamiento
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-lg-2.mb-2
+            span Por ejemplo:
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Variable &rarr; adquisición &rarr; información &rarr; procesamiento
       .col-lg-5.col-md-12
         .row.align-items-center
           .col-auto
@@ -326,10 +330,13 @@
     p.mb-2 Considérese un proceso industrial en el que se requiere conocer la posición de una pieza. La pieza se desplaza dentro de la máquina y el sistema necesita identificar su posición.
     p.mb-4 El proceso puede desarrollarse de la siguiente manera:
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md
-      span.me-3.text-nowrap Por ejemplo:
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Posición de la pieza &rarr; sensor &rarr; señal &rarr; transductor &rarr; señal adecuada &rarr; sistema electrónico &rarr; procesamiento
+    .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+      .col-lg-auto.mb-2
+        span Por ejemplo:
+      .col-lg-auto.d-none.d-lg-block
+        img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p.mb-0.fw-bold Posición de la pieza &rarr; sensor &rarr; señal &rarr; transductor &rarr; señal adecuada &rarr; sistema electrónico &rarr; procesamiento
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-04.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -360,18 +367,13 @@
             p.mb-0 El resultado es un código binario.
           .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #48D1B1; margin-left: -5px;") 3
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md.d-none.d-lg-block
-      span.me-3.fw-bold.text-nowrap Puede representarse así:
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; ADC &rarr; Código binario &rarr; Sistema electrónico
-
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.d-lg-none
-      .row
-        .col-lg-2.col-md-12.mb-2
-          p.mb-2 Puede representarse así:
-        .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; ADC &rarr; Código binario &rarr; Sistema electrónico
+    .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+      .col-lg-2.mb-2
+        span Puede representarse así:
+      .col-lg-auto.d-none.d-lg-block
+        img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; ADC &rarr; Código binario &rarr; Sistema electrónico
 
 
     p.mb-5 Esta secuencia permite relacionar los contenidos desarrollados anteriormente sobre variables análogas, señales análogas, señales digitales y señales binarias.
@@ -389,9 +391,11 @@
         .col-lg-7.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0.p-lg-3.p-xl-4.p-3
           p.mb-0 La instrumentación industrial requiere disponer de información sobre las condiciones del proceso. Los sensores permiten captar las variables y los sistemas de adquisición permiten llevar esta información hacia los elementos encargados de procesarla.
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Proceso &rarr; variable &rarr; captación &rarr; señal &rarr; adquisición &rarr; procesamiento &rarr; control
+    .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+      .col-lg-auto.d-none.d-lg-block
+        img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p.mb-0.fw-bold Proceso &rarr; variable &rarr; captación &rarr; señal &rarr; adquisición &rarr; procesamiento &rarr; control
 
     p.mb-5 La adquisición constituye el enlace entre el comportamiento físico del proceso y la información que utilizará el sistema electrónico.
 
@@ -437,9 +441,11 @@
 
           p.mb-3 Así, los elementos estudiados pueden relacionarse de la siguiente manera:
 
-          .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.mb-0
-            i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-            p.mb-0.fw-bold Variable &rarr; sensor &rarr; transductor &rarr; señal &rarr; conversión &rarr; procesamiento
+          .row.align-items-center.bg-color-02.p-4.br-15.mb-0
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Variable &rarr; sensor &rarr; transductor &rarr; señal &rarr; conversión &rarr; procesamiento
 
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-3.col-md-8.mb-4.mb-lg-0

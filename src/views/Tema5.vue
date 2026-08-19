@@ -18,9 +18,11 @@
     p.mb-3 El material de formación plantea esta etapa como una aproximación a las aplicaciones de la automatización industrial, mediante circuitos básicos que permiten realizar pequeñas acciones de control.
     p.mb-4 La relación general puede representarse de la siguiente manera:
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-5.d-flex.align-items-center.max-cont-md
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Variable &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; sistema electrónico &rarr; acción de control
+    .row.align-items-center.bg-color-02.p-4.br-15.mb-5.max-cont-md
+      .col-lg-auto.d-none.d-lg-block
+        img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p.mb-0.fw-bold Variable &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; sistema electrónico &rarr; acción de control
 
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
@@ -32,21 +34,18 @@
         p.mb-3 Los sistemas electrónicos de control requieren elementos eléctricos y electrónicos que permitan recibir, procesar y modificar señales.
         p.mb-0 La electricidad proporciona las condiciones necesarias para el funcionamiento de los circuitos, mientras que la electrónica permite procesar señales y establecer respuestas de acuerdo con las condiciones determinadas.
 
-      .col-lg-3.col-md-12.mb-0.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5.text-bold.mb-2 Figura 5.
-          span Señal
-        img(src="@/assets/curso/tema5/img2.png", data-aos="zoom-in").d-none.d-lg-block
-        img(src="@/assets/curso/tema5/img02-m.png", data-aos="zoom-in").d-lg-none
-        figcaption Nota. SENA, (2026).
-
+      .col-lg-3.col-md-8.mb-0.mb-lg-0
+        img(src="@/assets/curso/tema5/img2.png", data-aos="zoom-in").mx-auto
+        
     .row.mb-3.align-items-center
       .col-lg-6.mb-3.mb-lg-0
         p.mb-2 Dentro de este contexto, los sensores y transductores proporcionan información sobre el proceso y los circuitos electrónicos utilizan dicha información para generar una respuesta.
       .col-lg-6
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Información del proceso &rarr; circuito electrónico &rarr; respuesta
+        .row.align-items-center.bg-color-02.p-4.br-15
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Información del proceso &rarr; circuito electrónico &rarr; respuesta
         
     p.mb-4 La relación puede expresarse así:
 
@@ -82,7 +81,8 @@
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 5.
             span Señal
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img02.png", alt="").mx-auto
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img02.png", alt="").mx-auto.d-none.d-lg-block
+          img(src="@/assets/curso/tema5/img02-m.png", data-aos="zoom-in").d-lg-none
           figcaption Nota. SENA, (2026).
         p.mt-3 En esta aplicación, el amplificador operacional permite comparar dos valores de tensión y generar una salida de acuerdo con la relación existente entre ellos.
 
@@ -161,9 +161,11 @@
 
         p.mb-3 Conceptualmente:
 
-        .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Señal del sensor &rarr; comparación con referencia &rarr; respuesta
+        .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.fw-bold Señal del sensor &rarr; comparación con referencia &rarr; respuesta
 
         p.mb-0 Esta estructura permite transformar la información proveniente del sensor en una condición que posteriormente puede utilizarse para activar o desactivar un elemento.
 
@@ -232,9 +234,12 @@
         p.mb-3 El material de formación describe el relé sencillo como un dispositivo constituido por un electroimán y un interruptor de contactos. Cuando circula una pequeña corriente por la bobina, el núcleo se imanta y atrae el inducido, provocando el movimiento de los contactos.
         p.mb-3 Su funcionamiento puede representarse:
 
-        .bg-color-02.p-3.p-md-4.br-15.mb-3.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Señal de control &rarr; bobina &rarr; electroimán &rarr; movimiento del contacto &rarr; circuito controlado
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15.mb-3.max-cont-md
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Señal de control &rarr; bobina &rarr; electroimán &rarr; movimiento del contacto &rarr; circuito controlado
 
       .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
@@ -254,9 +259,12 @@
         p.mb-1 Cuando no circula corriente por la bobina, los contactos permanecen en su estado inicial.
         p.mb-2 Cuando se aplica corriente a la bobina:
 
-        .bg-color-02.p-3.p-md-4.br-15.mb-lg-2.mb-4.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Corriente &rarr; campo magnético &rarr; movimiento del inducido &rarr; cambio de contactos
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15.mb-lg-2.mb-4.max-cont-md
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Corriente &rarr; campo magnético &rarr; movimiento del inducido &rarr; cambio de contactos
 
         p.mb-0 El cambio de estado de los contactos permite controlar otro circuito.
         p.mb-0 Por esta razón, el relé puede utilizarse como elemento de salida en aplicaciones donde una señal electrónica debe generar una acción.
@@ -276,23 +284,14 @@
         p.mb-2 Esta señal puede activar un relé.
         p.mb-0 El relé puede modificar el estado de otro circuito.
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-5.d-flex.align-items-center.max-cont-md.d-none.d-lg-block
-      span.me-3.text-nowrap La secuencia puede representarse:
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
-
-    .bg-color-02.p-3.p-md-4.br-15.mb-5.d-flex.align-items-center.d-lg-none
-      .row
-        .col-lg-2.col-md-12.mb-2
-          p.mb-2 La secuencia puede representarse:
-        .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
-
     .container
-      .titulo-con-imagen.mb-4(data-aos="fade-right")
-        .titulo-con-imagen__fondo_2
-          h3.titulo-con-imagen__texto_2 La secuencia puede representarse:
+      .row.align-items-center.bg-color-02.p-4.br-15.mb-5.max-cont-md
+        .col-12.mb-2
+          span.fw-bold La secuencia puede representarse:
+        .col-lg-auto.d-none.d-lg-block
+          img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
 
     .row.mb-4.mb-lg-5.align-items-stretch
       .col-lg-6.mb-4.mb-lg-0
@@ -336,22 +335,6 @@
           img(src="@/assets/curso/tema5/img12.svg")
 
         p.mb-0 La conversión entre sistemas numéricos permite interpretar los valores que se utilizan dentro de los sistemas electrónicos.
-        //- .bg-color-0.p-4.br-15.h-100
-        //-   .d-flex.align-items-center.mb-3
-        //-     .px-3.py-2.bg-white.br-12(style="border: 2px solid #0F8268;")
-        //-       span.fw-bold 101₂
-        //-     span.ms-3 corresponde a:
-
-        //-   p.mb-2 Por ejemplo:
-
-        //-   .row.align-items-center
-        //-     .col-sm-7
-        //-       p.mb-1 1 &times; 2² + 0 &times; 2¹ + 1 &times; 2⁰
-        //-       p.mb-1 = 4 + 0 + 1
-        //-       p.mb-0 = 5₁₀
-        //-     .col-sm-5
-        //-       .p-3.br-15.bg-white.text-center(style="border: 2px solid #0F8268;")
-        //-         span.fw-bold 101₂ = 5₁₀
 
       .col-lg-6.col-md-12
         .container
@@ -364,9 +347,12 @@
         p.mb-2 El material de formación establece que un conversor ADC toma valores analógicos de tensión y los convierte en códigos binarios.
         p.mb-3 La secuencia es:
 
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.max-cont-md.mb-2
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Medida análoga &rarr; ADC &rarr; código binario
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15.max-cont-md.mb-2
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Medida análoga &rarr; ADC &rarr; código binario
 
         p.mb-0 Este proceso permite que la información obtenida mediante un sensor pueda ser interpretada por un sistema digital.
 
@@ -385,9 +371,12 @@
       .col-lg-3.col-md-12.mb-3.mb-lg-0
         p.mb-0 La estructura puede representarse así:
       .col-lg-6.col-md-12.mb-3.mb-lg-0
-        .bg-color-02.p-3.br-15.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Señal análoga &rarr; ADC &rarr; código binario &rarr; sistema digital
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Señal análoga &rarr; ADC &rarr; código binario &rarr; sistema digital
       .col-lg-3.col-md-12
         p.mb-0 La conversión permite trabajar con la información de una variable dentro de un sistema digital.
 
@@ -437,9 +426,12 @@
 
     p.mb-3 La estructura general puede representarse:
 
-    .bg-color-02.p-3.p-md-4.br-15.mb-4.d-flex.align-items-center.max-cont-md
-      i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-      p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; ADC &rarr; Código binario &rarr; comparación / procesamiento &rarr; relé &rarr; acción
+    .container
+      .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+        .col-lg-auto.d-none.d-lg-block
+          img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; ADC &rarr; Código binario &rarr; comparación / procesamiento &rarr; relé &rarr; acción
 
     p.mb-5 Esta integración permite comprender cómo los diferentes elementos estudiados pueden participar en un sistema electrónico básico de control.
 
@@ -464,17 +456,13 @@
 
     .row.mb-5.align-items-center
       .col-lg-8.mb-3.mb-lg-0
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.max-cont-md.d-none.d-lg-block
-          span.me-3.text-nowrap La secuencia puede resumirse así:
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Captación &rarr; comparación &rarr; decisión &rarr; activación &rarr; acción
-      
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.d-lg-none
-          .row
-            .col-lg-2.col-md-12.mb-2
-              p.mb-2 La secuencia puede resumirse así:
-            .col-lg-10.col-md-12.mb-2.d-flex.align-items-center
-              i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15
+            .col-lg-3
+              span.fw-bold La secuencia puede resumirse así:
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
               p.mb-0.fw-bold Captación &rarr; comparación &rarr; decisión &rarr; activación &rarr; acción
       .col-lg-4
         p.mb-0 Este principio constituye una aplicación básica de la utilización de sensores en sistemas de control.
@@ -499,9 +487,12 @@
         p.mb-0 Los elementos de salida ejecutan las acciones correspondientes.
         p.mb-0 La estructura general puede expresarse como:
       .col-lg-6
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center.max-cont-md
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Sensar &rarr; procesar &rarr; decidir &rarr; actuar
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15.max-cont-md
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Sensar &rarr; procesar &rarr; decidir &rarr; actuar
 
     p.mb-3 Esta secuencia constituye una base para comprender sistemas de automatización de mayor complejidad.
     p.mb-5 La automatización industrial y la instrumentación industrial forman parte de los conocimientos de concepto establecidos en el material de formación para este Resultado de Aprendizaje.
@@ -525,9 +516,12 @@
 
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-7.col-md-12.mb-0
-        .bg-color-02.p-3.p-md-4.br-15.d-flex.align-items-center
-          i.fas.fa-angles-right.fa-2x.me-3(style="color: #0F8268;")
-          p.mb-0.fw-bold Señal de control &rarr; dispositivo de salida &rarr; circuito de potencia &rarr; acción
+        .container
+          .row.align-items-center.bg-color-02.p-4.br-15
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0.fw-bold Señal de control &rarr; dispositivo de salida &rarr; circuito de potencia &rarr; acción
 
 </template>
 

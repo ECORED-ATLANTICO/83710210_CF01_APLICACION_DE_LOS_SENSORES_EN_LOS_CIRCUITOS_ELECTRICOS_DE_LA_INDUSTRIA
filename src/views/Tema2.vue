@@ -122,9 +122,15 @@
 
     separador
     
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3 Sensor y transductor: relación funcional
+    //- #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    //-   h2 2.3 Sensor y transductor: relación funcional
 
+    .container
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
+          h3.titulo-con-imagen__texto Sensor y transductor: relación funcional
+          
     p.mb-4 Aunque sensor y transductor son conceptos estrechamente relacionados, dentro del material de formación se establece una diferencia funcional.
 
 
@@ -133,37 +139,41 @@
         .tarjeta-numerada.color-primario.p-4.h-100
           .tarjeta-numerada__numero
             .h2 1
-          p.mb-0.ms-3 El sensor recibe o capta la magnitud física correspondiente a la variable del proceso.
+          p.mb-0.ms-3.text-center El sensor recibe o capta la magnitud física correspondiente a la variable del proceso.
 
       .col-md-12.col-lg-6.col-xl-4.mb-4(data-aos="fade-up")
         .tarjeta-numerada.color-secundario.p-4.h-100
           .tarjeta-numerada__numero
             .h2 2
-          p.mb-0.ms-3 El transductor recibe la señal asociada a esa magnitud y la adapta o transforma en otra señal adecuada para el sistema electrónico.
+          p.mb-0.ms-3.text-center El transductor recibe la señal asociada a esa magnitud y la adapta o transforma en otra señal adecuada para el sistema electrónico.
 
       .col-md-12.col-lg-6.col-xl-5.mb-4(data-aos="fade-left")
         .tarjeta-numerada.color-acento-contenido.p-4.h-100
           .tarjeta-numerada__numero
             .h2 3
-          p.mb-0.ms-3 Esta relación resulta especialmente importante cuando la señal generada por la captación no presenta todavía las características requeridas por el sistema que realizará el procesamiento.
+          p.mb-0.ms-3.text-center Esta relación resulta especialmente importante cuando la señal generada por la captación no presenta todavía las características requeridas por el sistema que realizará el procesamiento.
 
-    .row.align-items-center(data-aos="fade-right")
-      .col-lg-10.mx-auto
-        .bg-fondo-01.br-15.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-9.mx-auto
+        .bg-fondo-01.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
-            .col-lg-auto.d-none.d-lg-flex.order-lg-2
+            .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img08.svg").mx-auto
-            .col-lg-8.order-1.order-lg-1.p-4
+            .col-lg-11.col-xl-9.order-1.order-lg-1.p-4
               p.mb-1 <b>Por ejemplo:</b> en un proceso se requiere detectar una condición física. 
               p.mb-1 <b>Variable</b> → <b>sensor</b> → <b>señal</b> → <b>transductor</b> → <b>señal adecuada</b> → <b>sistema electrónico</b>.
               p.mb-0 La señal puede cambiar de acuerdo con las características del transductor y de la aplicación.
     
-    .container
-      .titulo-con-imagen.mb-4(data-aos="fade-right")
-        .titulo-con-imagen__fondo_2
-          h3.titulo-con-imagen__texto_2 Captador
+      .col-lg-3.col-md-12
+        h4 Captador
+        p.mb-0 El concepto de captador se encuentra relacionado con la función de obtener información de una magnitud o condición del proceso.
 
-    p.mb-4 El concepto de captador se encuentra relacionado con la función de obtener información de una magnitud o condición del proceso.
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Captador
+
+    //- p.mb-4 El concepto de captador se encuentra relacionado con la función de obtener información de una magnitud o condición del proceso.
 
     h4.mb-4 Diferenciar los conceptos de transductor, sensor y captador.
     
@@ -192,81 +202,77 @@
           h4 Captador
           p.mb-0 Se relaciona con el elemento encargado de captar una magnitud o condición del proceso.
 
-    p.mb-5 Esta distinción permite analizar con mayor claridad los diferentes componentes que participan en la adquisición de señales.
+    .bg-full-width.bg-fondo-2
+      p.mb-5 Esta distinción permite analizar con mayor claridad los diferentes componentes que participan en la adquisición de señales.
 
-    .container
-      .titulo-con-imagen.mb-5(data-aos="fade-right")
-        .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
-          h3.titulo-con-imagen__texto Clasificación de los transductores
-
-    p.mb-2 Los transductores pueden clasificarse de acuerdo con la magnitud o variable que permiten detectar o medir.
-    p.mb-4 El material de formación desarrolla los siguientes grupos:
-
+      separador
       
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-6.mb-0.mb-lg-0
-        .bg-color-05-degrade.p-3.br-15.mb-0
-          .row
-            .col-lg-6
-              ul.lista-ul--color.mb-1
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de posición; 
-            .col-lg-6
-              ul.lista-ul--color.mb-1
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de proximidad; 
-            .col-lg-6
-              ul.lista-ul--color.mb-1
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de desplazamiento; 
-            .col-lg-6
-              ul.lista-ul--color.mb-1
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de velocidad; 
-            .col-lg-6
-              ul.lista-ul--color.mb-1
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de presión; 
-            .col-lg-6
-              ul.lista-ul--color.mb-1
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de temperatura; 
-            .col-lg-6
-              ul.lista-ul--color.mb-0
-                li.d-flex.mb-0 
-                  i.fas.fa-solid.fa-square.me-2
-                  span Transductores de luz.
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.3 Clasificación de los transductores
+        
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-3.mb-4.mb-lg-0.col-md-12
+          p.mb-2 Los transductores pueden clasificarse de acuerdo con la magnitud o variable que permiten detectar o medir.
+          p.mb-0 El material de formación desarrolla los siguientes grupos:
 
-      .col-lg-6
-        .row.align-items-center.mb-0
-          .col-lg-auto.mb-2
-            img.d-none.d-lg-flex(src="@/assets/curso/tema2/img07.svg", style="max-width: 90px").mx-auto
-          .col-lg-12
-            p.mb-0 Esta clasificación permite relacionar directamente una variable del proceso con el tipo de dispositivo que puede utilizarse para obtener información sobre ella.
+        .col-lg-6.mb-0.mb-lg-0.col-md-12
+          .bg-color-05-degrade.p-3.br-15.mb-0
+            .row
+              .col-lg-6
+                ul.lista-ul--color.mb-1
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de posición; 
+              .col-lg-6
+                ul.lista-ul--color.mb-1
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de proximidad; 
+              .col-lg-6
+                ul.lista-ul--color.mb-1
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de desplazamiento; 
+              .col-lg-6
+                ul.lista-ul--color.mb-1
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de velocidad; 
+              .col-lg-6
+                ul.lista-ul--color.mb-1
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de presión; 
+              .col-lg-6
+                ul.lista-ul--color.mb-1
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de temperatura; 
+              .col-lg-6
+                ul.lista-ul--color.mb-0
+                  li.d-flex.mb-0 
+                    i.fas.fa-solid.fa-square.me-2
+                    span Transductores de luz.
 
-
-    .container
-      .titulo-con-imagen.mb-4(data-aos="fade-right")
-        .titulo-con-imagen__fondo_2
-          h3.titulo-con-imagen__texto_2 Transductores de posición
+        .col-lg-3.mb-0.mb-lg-0.col-md-12
+          p.mb-0 Esta clasificación permite relacionar directamente una variable del proceso con el tipo de dispositivo que puede utilizarse para obtener información sobre ella.
 
 
-      
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
-        figure
-          img(src="@/assets/curso/tema2/img08.png", data-aos="zoom-in")
-      .col-lg-9.order-2.order-lg-2.mb-0.mb-lg-0
-        p.mb-0 Los transductores de posición permiten determinar la posición de un objeto o de una pieza móvil.
-        p.mb-2 Dentro del material se presentan como ejemplo los finales de carrera. Estos dispositivos actúan cuando un objeto o pieza alcanza una determinada posición y produce el accionamiento de una palanca, émbolo o varilla, generando el cambio de unos contactos. 
-        p.mb-0 Su funcionamiento permite transformar una condición mecánica —haber alcanzado una posición— en una condición que puede ser utilizada dentro de un circuito.
+      .container
+        .titulo-con-imagen.mb-4(data-aos="fade-right")
+          .titulo-con-imagen__fondo_2
+            h3.titulo-con-imagen__texto_2 Transductores de posición
+
+
+        
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-3.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
+          figure
+            img(src="@/assets/curso/tema2/img08.png", data-aos="zoom-in")
+        .col-lg-9.order-2.order-lg-2.mb-0.mb-lg-0
+          p.mb-0 Los transductores de posición permiten determinar la posición de un objeto o de una pieza móvil.
+          p.mb-2 Dentro del material se presentan como ejemplo los finales de carrera. Estos dispositivos actúan cuando un objeto o pieza alcanza una determinada posición y produce el accionamiento de una palanca, émbolo o varilla, generando el cambio de unos contactos. 
+          p.mb-0 Su funcionamiento permite transformar una condición mecánica —haber alcanzado una posición— en una condición que puede ser utilizada dentro de un circuito.
 
     
     .row.align-items-center.mb-5(data-aos="fade-right")
@@ -289,10 +295,10 @@
     
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
         figure
           img(src="@/assets/curso/tema2/img09.png", data-aos="zoom-in")
-      .col-lg-9.order-2.order-lg-1.mb-0.mb-lg-0
+      .col-lg-9.order-2.order-lg-2.mb-0.mb-lg-0
         p.mb-2 Los detectores de proximidad son dispositivos eléctricos, electromecánicos o electrónicos que reaccionan ante un objeto situado dentro de un entorno definido.
         p.mb-0 Este entorno corresponde al campo de sensibilidad.
         p.mb-0 Una característica importante es que la detección puede producirse por la proximidad física entre el objeto y el detector sin que exista contacto mecánico. 
@@ -302,10 +308,10 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10.mx-auto
         .bg-fondo-01.br-15.mb-3
-          .row.align-items-center(data-aos="fade-right")
-            .col-lg-auto.d-none.d-lg-flex.order-lg-1
+          .row.align-items-center.justify-content-center(data-aos="fade-right")
+            .col-lg-auto.col-xl-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img08.svg").mx-auto
-            .col-lg-8.order-1.order-lg-2.p-4
+            .col-lg-11.col-xl-9.order-2.order-lg-1.p-4
               p.mb-0 <b>Ejemplo:</b> En una banda transportadora se requiere detectar la presencia de una pieza antes de que llegue a una estación.
               p.mb-0 La pieza puede ingresar al campo de sensibilidad del detector y producir una señal.
               p.mb-0.text-bold Pieza → campo de sensibilidad → detección → señal
@@ -521,14 +527,15 @@
               p.text-center Permiten medir la temperatura de una sustancia sin estar en contacto con ella.
 
 
+      p.mb-4 La clasificación puede sintetizarse de la siguiente manera:
 
       .row.align-items-center(data-aos="fade-right")
         .col-lg-10.mx-auto
           .bg-fondo-07.br-15.mb-5
             .row.align-items-center.justify-content-center(data-aos="fade-right")
-              .col-lg-auto.d-none.d-lg-flex.order-lg-2
+              .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2
                 img(src="@/assets/curso/tema1/img36.png").mx-auto
-              .col-lg-9.order-1.order-lg-1.p-4
+              .col-lg-11.col-xl-9.order-1.order-lg-1.p-4
                 p.mb-0 <b>Principio señalado en el material</b>
                 p.mb-0 <b>Termorresistencia:</b> Variación de la resistencia de un conductor.
                 p.mb-0 <b>Termistor:</b> Variación de la resistencia de un semiconductor.
@@ -566,10 +573,10 @@
                     span.text-bold Fototransistores
 
       .row.mb-5.justify-content-center.align-items-center
-        .col-md-8.col-lg-4.mb-4.mb-lg-0.order-lg-2
+        .col-md-8.col-lg-4.mb-4.mb-lg-0.order-lg-1
           figure
             img(src="@/assets/curso/tema2/img22.png", data-aos="zoom-in")
-        .col-lg-8.order-lg-1
+        .col-lg-8.order-lg-2
           TabsA.color-acento-botones
             .tarjeta.color-acento-botones--borde.p-4(titulo="Fotorresistencias o LDR")
               p.mb-3 Las LDR modifican su resistencia dependiendo de la cantidad de luz que incide sobre ellas.
@@ -624,6 +631,7 @@
         figure
           img(src="@/assets/curso/tema2/img25.png", data-aos="zoom-in")
       .col-lg-9.order-lg-2
+        p.mb-2 La clasificación estudiada puede resumirse de la siguiente manera:
         .titulo-sexto.color-acento-contenido.mb-3
           h5 
             b Tabla 3.
@@ -668,28 +676,28 @@
 
       .row.justify-content-center.mb-5
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-right")
-          .tarjeta-numerada.color-primario.p-4.h-100
+          .tarjeta-numerada.color-primario.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
               .h2 1
-            p.mb-0.ms-3 El sensor permite captar la variable.
+            p.mb-0.ms-3.text-center El sensor permite captar la variable.
 
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-up")
-          .tarjeta-numerada.color-secundario.p-4.h-100
+          .tarjeta-numerada.color-secundario.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
               .h2 2
-            p.mb-0.ms-3 El transductor recibe y transforma o adapta la señal.
+            p.mb-0.ms-3.text-center El transductor recibe y transforma o adapta la señal.
 
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-down")
-          .tarjeta-numerada.color-acento-contenido.p-4.h-100
+          .tarjeta-numerada.color-acento-contenido.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
               .h2 3
-            p.mb-0.ms-3 El sistema electrónico recibe la señal para realizar el procesamiento correspondiente.
+            p.mb-0.ms-3.text-center El sistema electrónico recibe la señal para realizar el procesamiento correspondiente.
 
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-left")
-          .tarjeta-numerada.color-acento-botones.p-4.h-100
+          .tarjeta-numerada.color-acento-botones.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
               .h2 4
-            p.mb-0.ms-3 Esta estructura constituye la base para el estudio posterior de las variables y señales y de los sistemas de adquisición de señales.
+            p.mb-0.ms-3.text-center Esta estructura constituye la base para el estudio posterior de las variables y señales y de los sistemas de adquisición de señales.
 
 
 

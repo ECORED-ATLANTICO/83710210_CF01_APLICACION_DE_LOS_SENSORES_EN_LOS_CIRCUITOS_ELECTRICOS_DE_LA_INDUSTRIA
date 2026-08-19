@@ -163,7 +163,7 @@
       p.mb-5 En los procesos industriales se utilizan diferentes magnitudes de acuerdo con las características de cada operación.
 
       .row.mb-5.justify-content-center.align-items-center
-        .col-lg-6.mb-4.mb-lg-0  
+        .col-lg-12.col-xl-6.mb-4.mb-lg-4.mb-xl-0  
           .titulo-sexto.color-acento-contenido.mb-3
             h5 
               b Tabla 1.
@@ -198,7 +198,7 @@
                   td Presión
                   td pascal (Pa)
 
-        .col-lg-6
+        .col-lg-12.col-xl-6
           .row.align-items-center.mb-4
             .col-lg-auto.col-12.mb-2
               img.d-none.d-lg-flex(src="@/assets/curso/tema1/img15.svg", style="max-width: 90px").mx-auto
@@ -400,7 +400,7 @@
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 1.
             span Representación del rango
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img42.svg", alt="").mx-auto
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img42.png", alt="").mx-auto
           figcaption Nota. SENA, (2026).
         
         p.mb-0 Esta representación permite visualizar la relación entre los límites del instrumento y su SPAN.
@@ -442,9 +442,9 @@
         .col-lg-10.mx-auto
           .bg-fondo-01.br-15.mb-5
             .row.align-items-center.justify-content-center(data-aos="fade-right")
-              .col-lg-auto.d-none.d-lg-flex.order-lg-2
+              .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2
                 img(src="@/assets/curso/tema1/img08.svg").mx-auto
-              .col-lg-9.order-1.order-lg-1.p-4
+              .col-lg-11.col-xl-9.order-1.order-lg-1.p-4
                 p.mb-0 <b>Por ejemplo</b>, si un instrumento registra:
                 p.mb-0 <b>VM = 250 °C</b> este corresponde al valor indicado por el instrumento.
                 p.mb-0 Sin embargo, el valor real puede presentar una diferencia respecto de la lectura. Esta diferencia se encuentra relacionada con las características del instrumento y con el error asociado a la medición.
@@ -595,9 +595,9 @@
       .col-lg-10.mx-auto
         .bg-fondo-04.br-15.mb-5
           .row.align-items-center.justify-content-center(data-aos="fade-right")
-            .col-lg-auto.d-none.d-lg-flex.order-lg-2
+            .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img36.png").mx-auto
-            .col-lg-9.order-1.order-lg-1.p-4
+            .col-lg-11.col-xl-9.order-1.order-lg-1.p-4
               p.mb-0 <b>Relación con la medición</b>
               p.mb-0 <b>Exactitud</b>: relacionada con la proximidad entre el valor medido y el valor real.
               p.mb-0 <b>Resolución</b>: relacionada con el nivel de detalle con el que puede distinguirse o representarse una variación.
@@ -673,9 +673,9 @@
         .col-lg-10.mx-auto
           .bg-fondo-01.br-15.mb-5
             .row.align-items-center.justify-content-center(data-aos="fade-right")
-              .col-lg-auto.d-none.d-lg-flex.order-lg-1
+              .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2.order-xl-1
                 img(src="@/assets/curso/tema1/img08.svg").mx-auto
-              .col-lg-9.order-1.order-lg-2.p-4
+              .col-lg-11.col-xl-9.order-1.order-lg-1.p-4.order-xl-2
                 p.mb-1 <b>Por ejemplo:</b>
                 p.mb-1 <b>1 m = 100 cm</b>
                 p.mb-1 <b>1 m = 1000 mm</b>
