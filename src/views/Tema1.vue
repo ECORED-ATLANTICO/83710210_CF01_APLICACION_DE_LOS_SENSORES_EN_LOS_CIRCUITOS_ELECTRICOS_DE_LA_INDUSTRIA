@@ -22,24 +22,22 @@
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.1 Medida y medición
 
-      p.mb-5 Para comprender los sistemas de medición es necesario diferenciar estos dos conceptos.
+      p.mb-3 Para comprender los sistemas de medición es necesario diferenciar estos dos conceptos.
 
-      .row.align-items-center.mb-5
-        .col-lg-6.mb-4.mb-lg-0
-          .container
-            .row.align-items-center.bg-color-01.p-4.mb-0.br-15
-              .col-lg-auto.d-none.d-lg-block
-                img(src="@/assets/curso/tema1/img05.svg", style="max-width: 90px").mx-auto
-              .col-lg
-                p.mb-0 <b>Medida</b>: valor que representa la relación entre una cantidad y una unidad utilizada como patrón.
+      .row.justify-content-center.mb-4.mb-lg-5
+        .col-lg-6.mb-0.mb-lg-0.p-4
+          .row.align-items-center.bg-color-01.p-4.mb-0.br-15.h-100
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img05.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 <b>Medida</b>: valor que representa la relación entre una cantidad y una unidad utilizada como patrón.
 
-        .col-lg-6
-          .container
-            .row.align-items-center.bg-color-02.p-4.mb-0.br-15
-              .col-lg-auto.d-none.d-lg-block
-                img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
-              .col-lg
-                p.mb-0 <b>Medición</b>: determinación de una medida mediante un procedimiento y, generalmente, con apoyo de un instrumento.
+        .col-lg-6.mb-0.mb-lg-0.p-4
+          .row.align-items-center.bg-color-02.p-4.mb-0.br-15.h-100
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 <b>Medición</b>: determinación de una medida mediante un procedimiento y, generalmente, con apoyo de un instrumento.
       
       .row.align-items-center(data-aos="fade-right")
         .col-lg-10.mx-auto
@@ -420,31 +418,29 @@
 
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        .container
-          .row.align-items-center.bg-color-01.p-4.mb-0.br-15
-            .col-lg-auto.d-none.d-lg-block
-              img(src="@/assets/curso/tema1/img27.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 El valor medido (VM) corresponde al valor registrado por el elemento de medida.
+        .row.align-items-center.bg-color-01.p-4.mb-0.br-15.h-100
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img27.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 El valor medido (VM) corresponde al valor registrado por el elemento de medida.
 
-      .col-lg-6
-        .container
-          .row.align-items-center.bg-color-02.p-4.mb-0.br-15
-            .col-lg-auto.d-none.d-lg-block
-              img(src="@/assets/curso/tema1/img28.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 El valor real (VR) corresponde al valor real de la variable que se pretende determinar. 
+      .col-lg-6.mb-4.mb-lg-0
+        .row.align-items-center.bg-color-02.p-4.mb-0.br-15.h-100
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img28.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 El valor real (VR) corresponde al valor real de la variable que se pretende determinar. 
 
 
     
     .bg-full-width.bg-fondo-2
       .row.align-items-center(data-aos="fade-right")
-        .col-lg-10.mx-auto
+        .col-lg-12.col-xl-10.mx-auto
           .bg-fondo-01.br-15.mb-5
             .row.align-items-center.justify-content-center(data-aos="fade-right")
-              .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2
+              .col-lg-auto.col-xl-auto.d-none.d-lg-flex.order-lg-2
                 img(src="@/assets/curso/tema1/img08.svg").mx-auto
-              .col-lg-11.col-xl-9.order-1.order-lg-1.p-4
+              .col-lg-9.col-xl-9.order-1.order-lg-1.p-4
                 p.mb-0 <b>Por ejemplo</b>, si un instrumento registra:
                 p.mb-0 <b>VM = 250 °C</b> este corresponde al valor indicado por el instrumento.
                 p.mb-0 Sin embargo, el valor real puede presentar una diferencia respecto de la lectura. Esta diferencia se encuentra relacionada con las características del instrumento y con el error asociado a la medición.
@@ -584,20 +580,20 @@
               span Instrumento B: 25,1 °C
 
       .col-lg-6
-        .row.align-items-center.mb-0
+        .row.align-items-center.mb-2
           .col-lg-auto.col-12.mb-2
             img.d-none.d-lg-flex(src="@/assets/curso/tema1/img34.svg", style="max-width: 90px").mx-auto
-          .col-lg-12
-            p.mb-1 La segunda lectura permite representar una variación más pequeña de la magnitud.
-            p.mb-0 La resolución y la exactitud no deben confundirse. Un instrumento puede presentar una lectura con muchos decimales y esto no significa, por sí mismo, que el valor obtenido sea más próximo al valor real.
+          .col-lg
+            p.mb-0 La segunda lectura permite representar una variación más pequeña de la magnitud.
+        p.mb-0 La resolución y la exactitud no deben confundirse. Un instrumento puede presentar una lectura con muchos decimales y esto no significa, por sí mismo, que el valor obtenido sea más próximo al valor real.
 
     .row.align-items-center(data-aos="fade-right")
-      .col-lg-10.mx-auto
+      .col-lg-12.col-xl-10.mx-auto
         .bg-fondo-04.br-15.mb-5
           .row.align-items-center.justify-content-center(data-aos="fade-right")
-            .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2
+            .col-lg-auto.col-xl-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img36.png").mx-auto
-            .col-lg-11.col-xl-9.order-1.order-lg-1.p-4
+            .col-lg-9.col-xl-9.order-1.order-lg-1.p-4
               p.mb-0 <b>Relación con la medición</b>
               p.mb-0 <b>Exactitud</b>: relacionada con la proximidad entre el valor medido y el valor real.
               p.mb-0 <b>Resolución</b>: relacionada con el nivel de detalle con el que puede distinguirse o representarse una variación.
@@ -670,12 +666,12 @@
 
     .bg-full-width.bg-fondo-1
       .row.align-items-center(data-aos="fade-right")
-        .col-lg-10.mx-auto
+        .col-lg-12.col-xl-10.mx-auto
           .bg-fondo-01.br-15.mb-5
             .row.align-items-center.justify-content-center(data-aos="fade-right")
-              .col-lg-4.col-xl-auto.d-none.d-lg-flex.order-lg-2.order-xl-1
+              .col-lg-auto.col-xl-auto.d-none.d-lg-flex.order-lg-2.order-xl-1
                 img(src="@/assets/curso/tema1/img08.svg").mx-auto
-              .col-lg-11.col-xl-9.order-1.order-lg-1.p-4.order-xl-2
+              .col-lg-9.col-xl-9.order-1.order-lg-1.p-4.order-xl-2
                 p.mb-1 <b>Por ejemplo:</b>
                 p.mb-1 <b>1 m = 100 cm</b>
                 p.mb-1 <b>1 m = 1000 mm</b>

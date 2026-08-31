@@ -2,9 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-3 La siguiente estructura permite visualizar la relación jerárquica entre los principales conceptos desarrollados en el componente formativo Sensores, medición y adquisición. A partir de una variable física, se establece un proceso que integra la medición, la captación, la generación y adquisición de señales y su posterior procesamiento.
-    p.mb-3 Esta organización facilita la comprensión de cómo los diferentes elementos estudiados se articulan dentro de un proceso industrial, desde la identificación de una variable hasta su utilización en sistemas electrónicos básicos de control.
-    p.mb-3 La estructura permite reconocer que la medición, los sensores, los transductores y las señales no constituyen conceptos aislados, sino elementos relacionados que contribuyen a la obtención y utilización de información para apoyar el funcionamiento y control de los procesos.
+
+      
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
+        figure
+          img(src="@/assets/curso/intro/img03.png", data-aos="zoom-in")
+      .col-lg-9.order-2.order-lg-2.mb-0.mb-lg-0
+        p.mb-1 La siguiente estructura permite visualizar la relación jerárquica entre los principales conceptos desarrollados en el componente formativo Sensores, medición y adquisición. A partir de una variable física, se establece un proceso que integra la medición, la captación, la generación y adquisición de señales y su posterior procesamiento.
+        p.mb-3 Esta organización facilita la comprensión de cómo los diferentes elementos estudiados se articulan dentro de un proceso industrial, desde la identificación de una variable hasta su utilización en sistemas electrónicos básicos de control.
+      
+        .bg-color-02.p-3.br-15.mb-0
+         p.mb-0 La estructura permite reconocer que la medición, los sensores, los transductores y las señales no constituyen conceptos aislados, sino elementos relacionados que contribuyen a la obtención y utilización de información para apoyar el funcionamiento y control de los procesos.
 
     
     .row.justify-content-center

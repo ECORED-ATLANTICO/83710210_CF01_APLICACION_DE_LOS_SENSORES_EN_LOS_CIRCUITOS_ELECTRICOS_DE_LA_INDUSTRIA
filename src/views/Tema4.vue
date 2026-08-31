@@ -40,7 +40,7 @@
     p.mb-4 Los elementos básicos identificados en el material de formación son:
 
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -49,7 +49,7 @@
             h4.mb-3.text-center Sensor
             p.mb-0 Capta el valor de la variable del proceso y genera una señal de salida.
 
-      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -58,7 +58,7 @@
             h4.mb-3.text-center Transductor
             p.mb-0 Convierte la señal producida por el sensor en una forma adecuada para el sistema.
 
-      .col-xl-4.col-lg-6.col-md-6.col-12.mb-0.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-12.col-12.mb-0.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
