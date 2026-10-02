@@ -35,7 +35,7 @@
     separador
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1 Variables
+      h2 3.1 Variable
 
     .row.mb-4.justify-content-center.align-items-stretch
       .col-lg-7.mb-4.mb-lg-0.order-lg-1
@@ -48,34 +48,34 @@
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-2 
                   i.fas.fa-solid.fa-square.me-2
-                  span Temperatura
+                  span Temperatura.
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Presión
+                  span Presión.
 
             .col-lg-3.col-md-6.col-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-2 
                   i.fas.fa-solid.fa-square.me-2
-                  span Posición
+                  span Posición.
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Desplazamiento
+                  span Desplazamiento.
 
             .col-lg-3.col-md-6.col-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-2 
                   i.fas.fa-solid.fa-square.me-2
-                  span Velocidad
+                  span Velocidad.
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Nivel
+                  span Nivel.
 
             .col-lg-3.col-md-6.col-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Iluminación
+                  span Iluminación.
 
         p.mb-0 Cuando una variable es captada por un sensor, la información obtenida debe representarse mediante una señal que pueda ser utilizada por el sistema electrónico.
 
@@ -128,9 +128,10 @@
           img(src="@/assets/curso/tema3/img04.png", data-aos="zoom-in")
 
       .col-lg-8.mb-0.mb-lg-0
-        p.mb-2 Una señal corresponde a la representación de información relacionada con una variable.
-        p.mb-2 En un sistema de adquisición, el sensor capta una condición física y genera una señal que puede ser utilizada posteriormente por el sistema electrónico.
-        p.mb-3 La señal puede representar diferentes características de la variable dependiendo del tipo de sensor y del sistema utilizado.
+        p.mb-1 Una señal corresponde a la representación de información relacionada con una variable.
+        p.mb-1 En un sistema de adquisición, el sensor capta una condición física y genera una señal que puede ser utilizada posteriormente por el sistema electrónico.
+        p.mb-1 La señal puede representar diferentes características de la variable dependiendo del tipo de sensor y del sistema utilizado.
+        p.mb-3 La relación puede representarse así:
 
         .row.align-items-center.bg-color-02.p-4.br-15.mb-0.max-cont-md
           .col-lg-auto.d-none.d-lg-block
@@ -195,9 +196,8 @@
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 2.
             span Señal
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img13.svg", alt="").mx-auto.d-none.d-lg-block
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img14.svg", alt="").mx-auto.d-lg-none
-          figcaption Nota. SENA, (2026).
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img13.svg", alt="Figura en plano, que representa continua permite comprender la diferencia fundamental frente a una señal digital.").mx-auto.d-none.d-lg-block
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img14.svg", alt="Figura en plano, que representa continua permite comprender la diferencia fundamental frente a una señal digital.").mx-auto.d-lg-none
     
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
@@ -302,7 +302,6 @@
           span Señales análogas y digitales
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Característica
@@ -335,8 +334,7 @@
             .col-lg-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img08.svg").mx-auto
             .col-lg-8.order-1.order-lg-1.p-4
-              p.mb-1 <b>Por ejemplo</b>
-              p.mb-1 Un sensor puede captar una variación de temperatura y generar una señal análoga. Posteriormente, esta señal puede ser convertida en información digital para que un sistema electrónico pueda procesarla.
+              p.mb-1 <b>Por ejemplo</b>: un sensor puede captar una variación de temperatura y generar una señal análoga. Posteriormente, esta señal puede ser convertida en información digital para que un sistema electrónico pueda procesarla.
               p.mb-0 La secuencia sería: 
               p.mb-0.fw-bold Temperatura → sensor → señal análoga → conversión → señal digital → procesamiento
 
@@ -380,14 +378,14 @@
           .bg-color-02.p-3.br-15.text-center.mb-2.max-cont-md
             p.mb-0.fw-bold.fs-5 0 y 1
 
-          p.mb-2 El sistema decimal, por su parte, utiliza diez símbolos:
+          p.mb-3 El sistema decimal, por su parte, utiliza diez símbolos:
           
           .bg-color-02.p-3.br-15.text-center.mb-2.max-cont-md
             p.mb-0.fw-bold.fs-5 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9
 
       .col-lg-5.mb-0.mb-lg-0
-        p.mb-3 La relación entre ambos sistemas permite representar un mismo valor mediante diferentes códigos.
-
+        p.mb-1 La relación entre ambos sistemas permite representar un mismo valor mediante diferentes códigos.
+        p.mb-3 Por ejemplo: 
         .row.mb-4.g-3
           .col-sm-6
             .bg-color-02.p-3.br-15.text-center
@@ -519,9 +517,8 @@
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 3.
             span Señales y conversión
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img15.svg", alt="").mx-auto.d-none.d-lg-block
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img16.svg", alt="").mx-auto.d-lg-none
-          figcaption Nota. SENA, (2026).
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img15.svg", alt="Diagrama de flujo que representa el proceso de medición y conversión de una variable. La secuencia inicia con el proceso, continúa con la variable, el sensor, el transductor y la señal. A partir de la señal se presentan dos rutas: una análoga, que pasa por conversión; y otra digital, que pasa por procesamiento y conduce finalmente a un código binario.").mx-auto.d-none.d-lg-block
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img16.svg", alt="Diagrama de flujo que representa el proceso de medición y conversión de una variable. La secuencia inicia con el proceso, continúa con la variable, el sensor, el transductor y la señal. A partir de la señal se presentan dos rutas: una análoga, que pasa por conversión; y otra digital, que pasa por procesamiento y conduce finalmente a un código binario.").mx-auto.d-lg-none
     
     p.mb-5 Esta estructura permite observar que una señal puede atravesar diferentes etapas antes de convertirse en información útil para el sistema.
 
@@ -550,9 +547,8 @@
             .col-lg-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img08.svg").mx-auto
             .col-lg-8.order-1.order-lg-1.p-4
-              p.mb-1.fw-bold Ejemplo:
-              p.mb-1.fw-bold Temperatura = 30 &deg;C
-              p.mb-0 corresponde a una condición de la variable.
+              p.mb-1.fw-bold Por ejemplo:
+              p.mb-0 <b>Temperatura = 30 &deg;C</b> corresponde a una condición de la variable.
 
     p.mb-1 Un sensor puede generar una determinada señal eléctrica relacionada con esos 30 &deg;C.
     p.mb-1 Posteriormente, un conversor puede representar esa señal mediante un código binario.
@@ -596,34 +592,34 @@
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Variable:</b> Representa una magnitud o condición del proceso.
+                  span <b>Variable.</b> Representa una magnitud o condición del proceso.
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Sensor:</b> Capta información relacionada con la variable.
+                  span <b>Sensor.</b> Capta información relacionada con la variable.
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Señal:</b> Representa la información obtenida.
+                  span <b>Señal.</b> Representa la información obtenida.
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Señal análoga:</b> Representa información mediante una variación continua.
+                  span <b>Señal análoga.</b> Representa información mediante una variación continua.
                 li.d-flex.mb-0
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Señal digital:</b> Representa información mediante estados discretos.
+                  span <b>Señal digital.</b> Representa información mediante estados discretos.
 
             .col-lg-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Señal binaria:</b> Utiliza dos estados representados mediante 0 y 1.
+                  span <b>Señal binaria.</b> Utiliza dos estados representados mediante 0 y 1.
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Nivel lógico:</b> representa los estados utilizados por un sistema digital.
+                  span <b>Nivel lógico.</b> Representa los estados utilizados por un sistema digital.
                 li.d-flex.mb-2
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Conversor análogo digital:</b> convierte valores analógicos de tensión en códigos binarios.
+                  span <b>Conversor análogo digital.</b> Convierte valores analógicos de tensión en códigos binarios.
                 li.d-flex.mb-0
                   i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span <b>Sistema binario:</b> representa información utilizando los valores 0 y 1.
+                  span <b>Sistema binario.</b> Representa información utilizando los valores 0 y 1.
 
 
 </template>

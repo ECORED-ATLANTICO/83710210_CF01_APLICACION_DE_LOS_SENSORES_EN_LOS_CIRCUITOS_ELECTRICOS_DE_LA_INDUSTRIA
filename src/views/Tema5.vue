@@ -47,7 +47,6 @@
           .col-lg
             p.mb-0.fw-bold Información del proceso &rarr; circuito electrónico &rarr; respuesta
         
-    p.mb-4 La relación puede expresarse así:
 
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
@@ -80,10 +79,9 @@
         .row.justify-content-center.mb-3
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 5.
-            span Señal
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img02.png", alt="").mx-auto.d-none.d-lg-block
+            span Amplificador operacional
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img02.png", alt="Diagrama de un amplificador operacional (AO) con dos entradas, V1 y V2, conectadas al amplificador. El circuito recibe alimentación positiva VS+ y negativa VS−, y genera una salida VOUT. Las entradas V1 y V2 se dirigen hacia el amplificador operacional, que produce la señal de salida VOUT.").mx-auto.d-none.d-lg-block
           img(src="@/assets/curso/tema5/img02-m.png", data-aos="zoom-in").d-lg-none
-          figcaption Nota. SENA, (2026).
         p.mt-3 En esta aplicación, el amplificador operacional permite comparar dos valores de tensión y generar una salida de acuerdo con la relación existente entre ellos.
 
     .container
@@ -101,7 +99,7 @@
               .col-2
                 p.mb-0.text-bold V1 > V2
 
-          p.mb-2 el voltaje de salida será igual al de la alimentación positiva:
+          p.mb-2 El voltaje de salida será igual al de la alimentación positiva:
           p.mb-0.fw-bold VOUT = VS+
             span.fw-normal.ms-4 Si:
             span.fw-bold.ms-2 V1 < V2
@@ -111,7 +109,7 @@
           .p-3.br-12.mb-2(style="border: 2px solid #049767;").br-15
             .row.justify-content-center.mb-0.align-items-center
               .col-8
-                p.mb-0  el voltaje de salida será igual al de la alimentación negativa:
+                p.mb-0 El voltaje de salida será igual al de la alimentación negativa:
               .col-4
                 p.mb-0.text-bold VOUT = VS-
                 
@@ -245,6 +243,7 @@
         figure
           img(src="@/assets/curso/tema5/img06.png", data-aos="zoom-in")
 
+    p.mb-4 El relé permite establecer una separación funcional entre el circuito que genera la señal de control y el circuito sobre el cual se desea actuar.
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
         .titulo-con-imagen__fondo_2
@@ -393,35 +392,31 @@
       .col-lg-8.col-md-12.mb-0.mb-lg-0
         SlyderF(columnas="col-lg-12 col-xl-4 col-md-6 col-sm-12 p-2")
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 1
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") A
             p.mb-0 Los elementos estudiados pueden integrarse en una cadena de control.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 2
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") B
             p.mb-0 Una variable física es captada por un sensor.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 3
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") C
             p.mb-0 El sensor genera una señal.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 4
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") D
             p.mb-0 El transductor puede adaptar dicha señal.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 5
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") E
             p.mb-0 Cuando la información es análoga, puede convertirse a un código binario mediante un ADC.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 6
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") F
             p.mb-0 El sistema electrónico puede comparar o procesar la información.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 7
-            p.mb-0 Se genera una señal de control o decisión.
-
-          .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 8
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") G
             p.mb-0 Finalmente, una salida puede generar una acción mediante un dispositivo como el relé.
 
     p.mb-3 La estructura general puede representarse:

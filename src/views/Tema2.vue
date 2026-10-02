@@ -46,7 +46,7 @@
               .col-lg-auto.d-none.d-lg-flex.order-lg-2
                 img(src="@/assets/curso/tema1/img08.svg").mx-auto
               .col-lg-8.order-1.order-lg-1.p-4
-                p.mb-0 <b>Por ejemplo:</b> en un proceso donde se necesita detectar la presencia de una pieza, el sensor debe responder a la condición de presencia y generar una señal que pueda ser utilizada por el sistema.
+                p.mb-0 <b>Ejemplo:</b> en un proceso donde se necesita detectar la presencia de una pieza, el sensor debe responder a la condición de presencia y generar una señal que pueda ser utilizada por el sistema.
     
   
     .row.mb-4.justify-content-center.align-items-center
@@ -62,32 +62,32 @@
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Posición;
+                  span Posición.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Proximidad;
+                  span Proximidad.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Desplazamiento;
+                  span Desplazamiento.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Velocidad;
+                  span Velocidad.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Presión;
+                  span Presión.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Temperatura;
+                  span Temperatura.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
@@ -138,19 +138,19 @@
       .col-md-12.col-lg-6.col-xl-3.mb-4(data-aos="fade-right")
         .tarjeta-numerada.color-primario.p-4.h-100
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 A
           p.mb-0.ms-3.text-center El sensor recibe o capta la magnitud física correspondiente a la variable del proceso.
 
       .col-md-12.col-lg-6.col-xl-4.mb-4(data-aos="fade-up")
         .tarjeta-numerada.color-secundario.p-4.h-100
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 B
           p.mb-0.ms-3.text-center El transductor recibe la señal asociada a esa magnitud y la adapta o transforma en otra señal adecuada para el sistema electrónico.
 
       .col-md-12.col-lg-6.col-xl-5.mb-4(data-aos="fade-left")
         .tarjeta-numerada.color-acento-contenido.p-4.h-100
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 C
           p.mb-0.ms-3.text-center Esta relación resulta especialmente importante cuando la señal generada por la captación no presenta todavía las características requeridas por el sistema que realizará el procesamiento.
 
     .row.align-items-center.mb-5(data-aos="fade-right")
@@ -175,7 +175,7 @@
 
     //- p.mb-4 El concepto de captador se encuentra relacionado con la función de obtener información de una magnitud o condición del proceso.
 
-    h4.mb-4 Diferenciar los conceptos de transductor, sensor y captador.
+    h4.mb-4 Diferenciar los conceptos de transductor, sensor y captador
     
     .row.mb-3.justify-content-center.align-items-stretch
       .col-lg-4.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
@@ -222,32 +222,32 @@
                 ul.lista-ul--color.mb-1
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Transductores de posición; 
+                    span Transductores de posición.
               .col-lg-6
                 ul.lista-ul--color.mb-1
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Transductores de proximidad; 
+                    span Transductores de proximidad.
               .col-lg-6
                 ul.lista-ul--color.mb-1
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Transductores de desplazamiento; 
+                    span Transductores de desplazamiento.
               .col-lg-6
                 ul.lista-ul--color.mb-1
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Transductores de velocidad; 
+                    span Transductores de velocidad.
               .col-lg-6
                 ul.lista-ul--color.mb-1
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Transductores de presión; 
+                    span Transductores de presión.
               .col-lg-6
                 ul.lista-ul--color.mb-1
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Transductores de temperatura; 
+                    span Transductores de temperatura.
               .col-lg-6
                 ul.lista-ul--color.mb-0
                   li.d-flex.mb-0 
@@ -279,7 +279,7 @@
       .col-lg-10.mx-auto
         .bg-fondo-02.br-15.mb-4.p-4
           .col-lg-9.col-12
-            p.mb-2.fw-bold Ejemplo de aplicación:
+            p.mb-2.fw-bold Ejemplo de aplicación
             p.mb-1 En una máquina, un elemento móvil debe detenerse cuando llega al final de su recorrido.
             p.mb-2 La secuencia puede representarse:
             p.mb-0.fw-bold Movimiento &rarr; llegada a posición &rarr; accionamiento del final de carrera &rarr; cambio de contactos &rarr; señal para el sistema
@@ -312,7 +312,8 @@
             .col-lg-auto.col-xl-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img08.svg").mx-auto
             .col-lg-11.col-xl-9.order-2.order-lg-1.p-4
-              p.mb-0 <b>Ejemplo:</b> En una banda transportadora se requiere detectar la presencia de una pieza antes de que llegue a una estación.
+              p.mb-0 <b>Ejemplo</b> 
+              p.mb-0 En una banda transportadora se requiere detectar la presencia de una pieza antes de que llegue a una estación.
               p.mb-0 La pieza puede ingresar al campo de sensibilidad del detector y producir una señal.
               p.mb-0.text-bold Pieza → campo de sensibilidad → detección → señal
 
@@ -422,7 +423,14 @@
           p.mb-0 Una de las mediciones importantes en aplicaciones industriales corresponde a la velocidad angular. 
           p.mb-3 El material de formación presenta los tacómetros como dispositivos utilizados para realizar este tipo de medición. Estos pueden ser mecánicos o eléctricos. 
           p.mb-3 En una aplicación industrial, la información sobre la velocidad puede utilizarse para supervisar el funcionamiento de un motor o de otro elemento giratorio. 
-          p.mb-0 La relación funcional puede representarse como:
+          p.mb-3 La relación funcional puede representarse como:
+
+          .container
+            .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
+              .col-lg-auto.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0.text-bold Movimiento rotacional → tacómetro → señal → sistema de procesamiento
 
 
 
@@ -451,16 +459,16 @@
               ul.lista-ul--color.mb-2
                 li.d-flex.mb-1 
                   i.fas.fa-solid.fa-square.me-2
-                  span Tubo Bourdon;
+                  span Tubo Bourdon.
                 li.d-flex.mb-1 
                   i.fas.fa-solid.fa-square.me-2
-                  span Tubo en espiral;
+                  span Tubo en espiral.
                 li.d-flex.mb-1 
                   i.fas.fa-solid.fa-square.me-2
-                  span Tubo en hélice;
+                  span Tubo en hélice.
                 li.d-flex.mb-1 
                   i.fas.fa-solid.fa-square.me-2
-                  span Diafragma;
+                  span Diafragma.
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
                   span Fuelle.
@@ -638,7 +646,6 @@
           span Relación variable y dispositivo
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table(style="min-width:440px")
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th(width="40%") Variable o condición
@@ -678,25 +685,25 @@
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-right")
           .tarjeta-numerada.color-primario.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
-              .h2 1
+              .h2 A
             p.mb-0.ms-3.text-center El sensor permite captar la variable.
 
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-up")
           .tarjeta-numerada.color-secundario.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
-              .h2 2
+              .h2 B
             p.mb-0.ms-3.text-center El transductor recibe y transforma o adapta la señal.
 
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-down")
           .tarjeta-numerada.color-acento-contenido.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
-              .h2 3
+              .h2 C
             p.mb-0.ms-3.text-center El sistema electrónico recibe la señal para realizar el procesamiento correspondiente.
 
         .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-left")
           .tarjeta-numerada.color-acento-botones.p-4.h-100.align-content-center
             .tarjeta-numerada__numero
-              .h2 4
+              .h2 D
             p.mb-0.ms-3.text-center Esta estructura constituye la base para el estudio posterior de las variables y señales y de los sistemas de adquisición de señales.
 
 
@@ -777,11 +784,11 @@
               figure
                 img(src="@/assets/curso/tema2/img33.png", data-aos="fade-right").w-50.mx-auto
             .col-lg-7.order-1.order-md-1.order-lg-1.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
+              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente pódcast: 
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Podcast pendiente"
+                texto="De la variable física a la señal: el papel de los sensores en la instrumentación industrial"
                 tiempo
-                :audio="require_src('@/assets/curso/audio/2.mp3')"
+                :audio="require_src('@/assets/curso/audio/1.mp3')"
               )
 
 

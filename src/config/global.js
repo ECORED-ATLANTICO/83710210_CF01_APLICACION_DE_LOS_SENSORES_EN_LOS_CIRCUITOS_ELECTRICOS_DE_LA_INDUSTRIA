@@ -34,18 +34,99 @@ export default {
         numero: '1',
         titulo: 'Medición e instrumentación industrial',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Medida y medición',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Instrumentos de medida',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Instrumentación industrial',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Instrumentos de medida',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Valor medido y valor real',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Magnitudes y prefijos',
+            hash: 't_1_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo: 'Sensores, transductores y captadores',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Sensor',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Transductor',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Clasificación de los transductores',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Relación entre variable y dispositivo',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Integración del sensor, transductor y sistema electrónico',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Variables y señales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Variable',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Variable análoga',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Señal',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Señal análoga',
+            hash: 't_3_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
@@ -86,7 +167,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/83710210_CF01_DU.pdf',
+        download: 'downloads/83710210_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -145,33 +226,33 @@ export default {
   referencias: [
     {
       referencia:
-        'Marín García, E. J. (2023). <em>Sistemas de medición electrónica. Generalidades y algo más</em>. Programa Editorial Universidad del Valle.',
-      link: 'https://doi.org/10.25100/peu.7617650',
+        'Dyer, J., & Davis, C. (2020). <em>Measurement and instrumentation: An introduction to concepts and methods</em>. SHAREOK.',
+      link: 'https://open.umn.edu/opentextbooks/textbooks/measurement-and-instrumentation-an-introduction-to-concepts-and-methods',
     },
     {
       referencia:
-        'Pallás Areny, R. (2002). <em>Sensores y acondicionadores de señal</em> (3.ª ed.). Alfaomega/Marcombo.',
-      link: 'https://catalogo.ut.edu.co/cgi-bin/koha/opac-detail.pl?biblionumber=27700',
+        'Davis, C. (2018). <em>Electromechanical systems</em>. SHAREOK.',
+      link: 'https://open.umn.edu/opentextbooks/textbooks/1707',
     },
     {
       referencia:
-        'Ramírez, J. D., Mejía Hernández, J. C., Quintero, H. F., Henao Castañeda, E. de J., Romero Piedrahita, C. A., & Pérez Castro, W. (2018). Banco de instrumentación para el acondicionamiento y adquisición de señales provenientes de un motor de combustión interna. <em>Revista Colombiana de Tecnologías de Avanzada</em>, 3(1), 24–30.',
-      link: 'https://doi.org/10.24054/rcta.vi.147',
+        'Moebs, W., Ling, S. J., & Sanny, J. (2021). <em>Física universitaria volumen 2</em>. OpenStax.',
+      link: 'https://openstax.org/books/f%C3%ADsica-universitaria-volumen-2/pages/10-4-instrumentos-de-medicion-electrica',
     },
     {
       referencia:
-        'Universidad Tecnológica de Pereira. (s. f.). <em>Instrumentación Industrial I</em>.',
-      link: 'https://media.utp.edu.co/maestria-en-matematica/archivos/Instrumentaci%C3%B3n%20Industrial%20I.pdf',
+        'Moebs, W., Ling, S. J., & Sanny, J. (2021). <em>Física universitaria volumen 1</em>. OpenStax.',
+      link: 'https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/1-2-unidades-y-estandares',
     },
     {
       referencia:
-        'Universidad Tecnológica de Pereira. (s. f.). <em>Medidas e instrumentación</em>.',
-      link: 'https://media.utp.edu.co/ingenieria-electrica/archivos/contenidoTematico/medidas-e-instrumentacion.pdf',
+        'Moebs, W., Ling, S. J., & Sanny, J. (2017). <em>University Physics Volume 1</em>. OpenStax.',
+      link: 'https://openstax.org/books/university-physics-volume-1/pages/1-6-significant-figures',
     },
     {
       referencia:
-        'Vallejo Valencia, M., & Arias Londoño, A. (2022). <em>Introducción a la adquisición y acondicionamiento de señales</em> (1.ª ed.). Editorial ITM.',
-      link: 'https://catalogo.itm.edu.co/gpd-introduccion-a-la-adquisicion-y-acondicionamiento-de-senales-9789585122642.html',
+        'Tiberius, C., & Mulder, M. (2026). <em>Engineering signal analysis: From Fourier to filtering: Theory</em>. TU Delft Open.',
+      link: 'https://open.umn.edu/opentextbooks/textbooks/engineering-signal-analysis-from-fourier-to-filtering-theory',
     },
   ],
   creditos: [
@@ -185,7 +266,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel De Jesús Paredes Maestre',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -195,12 +276,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Mario Morales Cabrera',
+          nombre: 'Wilmar Urrutia Martínez',
           cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jair Enrique Coll Gallardo',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -210,8 +291,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta',
-          cargo: 'Diseñador de contenidos digitales',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -236,21 +317,16 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Jonathan Adié Villafañe',
+          nombre: 'Luis Gabriel Urueta',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

@@ -56,7 +56,7 @@
               img(src="@/assets/curso/tema4/img04.png", alt="Transductor")
           .crd_hover_txt--body
             h4.mb-3.text-center Transductor
-            p.mb-0 Convierte la señal producida por el sensor en una forma adecuada para el sistema.
+            p.mb-0 Recibe la señal asociada a una o más cantidades físicas y la convierte, modificada o no, en una señal de salida adecuada para continuar el proceso.
 
       .col-xl-4.col-lg-6.col-md-12.col-12.mb-0.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -65,7 +65,7 @@
               img(src="@/assets/curso/tema4/img05.png", alt="Sistema electrónico")
           .crd_hover_txt--body
             h4.mb-3.text-center Sistema electrónico
-            p.mb-0 Recibe la información adaptada y realiza el procesamiento o control.
+            p.mb-0 Recibe la señal proveniente de la etapa de captación y transformación para realizar el procesamiento correspondiente.
 
     p.mb-4 La relación entre estos elementos permite establecer una cadena de adquisición:
 
@@ -91,21 +91,21 @@
           .p-4.br-15.h-100.bg-white.text-center.d-flex.flex-column.justify-content-center(style="border: 2px solid #5C84CE;")
             p.mb-2.fw-bold Captación de la variable
             p.mb-0 El sensor recibe información relacionada con una magnitud física presente en el proceso.
-          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #5C84CE; margin-left: -5px;") 1
+          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #5C84CE; margin-left: -5px;") A
 
       .col-lg-4.col-md-6
         .position-relative.h-100.pt-2.ps-3
           .p-4.br-15.h-100.bg-white.text-center.d-flex.flex-column.justify-content-center(style="border: 2px solid #9CA3AF;")
             p.mb-2.fw-bold Transformación o adaptación de la señal
             p.mb-0 El transductor recibe la señal proveniente del sensor y puede transformarla o adaptarla para que resulte adecuada para el sistema electrónico.
-          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #9CA3AF; margin-left: -5px;") 2
+          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #9CA3AF; margin-left: -5px;") B
 
       .col-lg-4.col-md-6
         .position-relative.h-100.pt-2.ps-3
           .p-4.br-15.h-100.bg-white.text-center.d-flex.flex-column.justify-content-center(style="border: 2px solid #48D1B1;")
             p.mb-2.fw-bold Entrega de la señal
             p.mb-0 La señal resultante es puesta a disposición del sistema electrónico para su posterior procesamiento.
-          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #48D1B1; margin-left: -5px;") 3
+          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #48D1B1; margin-left: -5px;") C
 
     .row.mb-5.align-items-center
       .col-lg-2.col-md-12.mb-3.mb-lg-0
@@ -165,7 +165,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.fw-bold señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
+            p.mb-0.fw-bold Señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
 
     p.mb-5 El tipo de transformación dependerá de las características de la variable, del sensor utilizado y de los requerimientos del sistema electrónico.
 
@@ -264,23 +264,23 @@
       .col-lg-8.col-md-12.mb-4.mb-lg-0
         SlyderF(columnas="col-lg-12 col-xl-4 col-md-6 col-sm-12 p-2")
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 1
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") A
             p.mb-0 Un sensor obtiene información relacionada con una variable de temperatura.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 2
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") B
             p.mb-0 La variable genera una señal análoga.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 3
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") C
             p.mb-0 Esta señal es recibida por un conversor análogo digital.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 4
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") D
             p.mb-0 El conversor transforma el valor de tensión en un código binario.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
-            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 5
+            .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") E
             p.mb-0 El sistema electrónico recibe el código y puede procesarlo.
 
     .row.align-items-center.bg-color-02.p-4.br-15.mb-3
@@ -353,19 +353,19 @@
         .position-relative.h-100.pt-2.ps-3
           .p-4.br-15.h-100.bg-white.text-center.d-flex.align-items-center.justify-content-center(style="border: 2px solid #5C84CE;")
             p.mb-0 El sensor genera una señal análoga relacionada con dicha variable.
-          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #5C84CE; margin-left: -5px;") 1
+          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #5C84CE; margin-left: -5px;") A
 
       .col-lg-4.col-md-6
         .position-relative.h-100.pt-2.ps-3
           .p-4.br-15.h-100.bg-white.text-center.d-flex.align-items-center.justify-content-center(style="border: 2px solid #9CA3AF;")
             p.mb-0 La señal es recibida por el sistema de adquisición y posteriormente convertida mediante un ADC.
-          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #9CA3AF; margin-left: -5px;") 2
+          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #9CA3AF; margin-left: -5px;") B
 
       .col-lg-4.col-md-6
         .position-relative.h-100.pt-2.ps-3
           .p-4.br-15.h-100.bg-white.text-center.d-flex.align-items-center.justify-content-center(style="border: 2px solid #48D1B1;")
             p.mb-0 El resultado es un código binario.
-          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #48D1B1; margin-left: -5px;") 3
+          .position-absolute.top-50.start-0.translate-middle-y.rounded-circle.d-flex.align-items-center.justify-content-center.text-white.fw-bold(style="width: 45px; height: 45px; background-color: #48D1B1; margin-left: -5px;") C
 
     .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
       .col-lg-2.mb-2
@@ -407,15 +407,14 @@
     .row.align-items-center.mb-4
       .col-lg-2.col-md-12.mb-4.mb-lg-0
         img(src="@/assets/curso/tema4/img15.svg", style="max-width: 90px;").mb-3.d-none.d-lg-block
-        p.mb-0 La integración de los elementos puede observarse en la siguiente representación:
+        p.mb-0 La integración de los elementos puede detallarse en la siguiente representación:
 
       .col-lg-10.col-md-12
         .row.justify-content-center.mb-3
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 4.
             span Integración al sistema
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema4/img18.svg", alt="").mx-auto
-          figcaption Nota. SENA, (2026).
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema4/img18.svg", alt="Diagrama de flujo de integración al sistema. El proceso conduce a una variable, que es captada por un sensor. El sensor envía la información a un transductor, encargado de la transformación y adaptación de la señal. La señal resultante pasa a un sistema electrónico para su procesamiento. La secuencia se representa verticalmente mediante flechas descendentes.").mx-auto
 
     p.mb-5 Esta representación resume la función de los elementos esenciales de un sistema de adquisición.
 
@@ -427,17 +426,17 @@
 
           ul.lista-ul--color.mb-3
             li.d-flex.mb-2
-              i.fas.fa-square.me-2(style="color: #74A2F2;")
-              span <b>1.</b> El sensor establece el contacto funcional con la variable.
+              i.fas.fa-circle.fa-xs.me-2(style="color: #74A2F2;")
+              span El sensor establece el contacto funcional con la variable.
             li.d-flex.mb-2
-              i.fas.fa-square.me-2(style="color: #74A2F2;")
-              span <b>2.</b> El transductor recibe y transforma o adapta la señal.
+              i.fas.fa-circle.fa-xs.me-2(style="color: #74A2F2;")
+              span El transductor recibe y transforma o adapta la señal.
             li.d-flex.mb-2
-              i.fas.fa-square.me-2(style="color: #74A2F2;")
-              span <b>3.</b> El sistema electrónico recibe la información para su procesamiento.
+              i.fas.fa-circle.fa-xs.me-2(style="color: #74A2F2;")
+              span El sistema electrónico recibe la información para su procesamiento.
             li.d-flex.mb-0
-              i.fas.fa-square.me-2(style="color: #74A2F2;")
-              span <b>4.</b> Cuando la información corresponde a una señal análoga y debe ser procesada digitalmente, interviene el conversor análogo digital, encargado de convertir los valores analógicos de tensión en códigos binarios.
+              i.fas.fa-circle.fa-xs.me-2(style="color: #74A2F2;")
+              span Cuando la información corresponde a una señal análoga y debe ser procesada digitalmente, interviene el conversor análogo digital, encargado de convertir los valores analógicos de tensión en códigos binarios.
 
           p.mb-3 Así, los elementos estudiados pueden relacionarse de la siguiente manera:
 
@@ -453,7 +452,7 @@
           img(src="@/assets/curso/tema4/img19.png", data-aos="zoom-in").mx-auto
       .col-lg-9.col-md-12
         p.mb-3 La información obtenida mediante los sensores debe ser adquirida y procesada para que pueda ser utilizada por un sistema electrónico. Dependiendo de sus características, las señales pueden requerir procesos de adaptación, conversión y procesamiento antes de generar una respuesta dentro del sistema de control.
-        p.mb-0 En el siguiente podcast se abordará el recorrido de la información desde la adquisición de la señal hasta su procesamiento y utilización en sistemas electrónicos básicos de control, relacionando conceptos como señales análogas y digitales, conversión, comparación y acción.
+        p.mb-0 En el siguiente pódcast se abordará el recorrido de la información desde la adquisición de la señal hasta su procesamiento y utilización en sistemas electrónicos básicos de control, relacionando conceptos como señales análogas y digitales, conversión, comparación y acción.
 
     .container
       .row.justify-content-center.align-items-center.mb-3
@@ -463,9 +462,9 @@
               figure
                 img(src="@/assets/curso/tema2/img33.png", data-aos="fade-right").w-50.mx-auto
             .col-lg-7.order-1.order-md-1.order-lg-1.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast:
+              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="xxxxx"
+                texto="De la señal al control: adquisición y procesamiento de información"
                 tiempo
                 :audio="require_src('@/assets/curso/audio/2.mp3')"
               )

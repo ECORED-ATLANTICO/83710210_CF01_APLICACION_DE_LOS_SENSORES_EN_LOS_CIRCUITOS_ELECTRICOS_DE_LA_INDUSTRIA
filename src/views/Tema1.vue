@@ -168,7 +168,6 @@
             span Unidades de medida
           .tabla-a.color-acento-contenido.tb-custom.mb-0
             table(style="min-width:440px")
-              caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
               thead
                 tr
                   th(width="50%") Magnitud
@@ -235,32 +234,32 @@
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Temperatura
+                  span Temperatura.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Presión 
+                  span Presión.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Masa
+                  span Masa.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Longitud
+                  span Longitud.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Velocidad
+                  span Velocidad.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
                   i.fas.fa-solid.fa-square.me-2
-                  span Nivel
+                  span Nivel.
             .col-lg-4.col-md-6
               ul.lista-ul--color.mb-0
                 li.d-flex.mb-0 
@@ -378,17 +377,17 @@
 
     .row.align-items-center.mb-4.justify-content-center
       .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
-        .bg-color-05-degrade.p-2.br-15.mb-4.mb-lg-3
-          ul.lista-ul--color.mb-0.p-2
-            li.d-flex.mb-0 
-              i.fas.fa-solid.fa-square.me-2
-              span El rango indica desde qué valor hasta qué valor puede realizarse la medición.
+        //- .bg-color-05-degrade.p-2.br-15.mb-4.mb-lg-3
+        //-   ul.lista-ul--color.mb-0.p-2
+        //-     li.d-flex.mb-0 
+        //-       i.fas.fa-solid.fa-square.me-2
+        //-       span El rango indica desde qué valor hasta qué valor puede realizarse la medición.
 
-        .bg-color-05-degrade.p-2.br-15.mb-4.mb-lg-3
-          ul.lista-ul--color.mb-0.p-2
-            li.d-flex.mb-0 
-              i.fas.fa-solid.fa-square.me-2
-              span El SPAN indica la diferencia entre esos dos límites.
+        //- .bg-color-05-degrade.p-2.br-15.mb-4.mb-lg-3
+        //-   ul.lista-ul--color.mb-0.p-2
+        //-     li.d-flex.mb-0 
+        //-       i.fas.fa-solid.fa-square.me-2
+        //-       span El SPAN indica la diferencia entre esos dos límites.
 
         figure.mb-0
           img(src="@/assets/curso/tema1/img26.png", alt="Representación del rango").mx-auto
@@ -398,8 +397,7 @@
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold.mb-2 Figura 1.
             span Representación del rango
-          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img42.png", alt="").mx-auto
-          figcaption Nota. SENA, (2026).
+          img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img42.png", alt="Representación de un rango de temperatura entre 100 °C y 300 °C. El límite inferior (RI) corresponde a 100 °C y el límite superior (RS) a 300 °C. Entre ambos límites se representa un SPAN de 200 °C.").mx-auto
         
         p.mb-0 Esta representación permite visualizar la relación entre los límites del instrumento y su SPAN.
           
@@ -413,7 +411,7 @@
     separador
     
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.5 Representación del rango
+      h2 1.5 Valor medido y valor real
 
 
     .row.align-items-center.mb-5
@@ -480,7 +478,7 @@
 
               .col-lg-6
                 p.mb-0 Entonces:
-                p.mb-0.text-bold ERROR = 52 − 50           
+                p.mb-0.text-bold ERROR = 52-50           
                 p.mb-0.text-bold ERROR = 2 °C
 
 
@@ -547,14 +545,7 @@
         figure
           img(src="@/assets/curso/tema1/img32.png", data-aos="zoom-in")
       .col-lg-9.order-1.order-lg-2.mb-4.mb-lg-0
-        p.mb-3 Este ejemplo permite observar cómo las características del instrumento intervienen directamente en la interpretación del resultado de una medición. 
-
-        .container
-          .row.align-items-center.bg-color-0.p-4.mb-0.br-15
-            .col-lg-auto.d-none.d-lg-block.order-lg-2
-              img(src="@/assets/curso/tema1/img33.svg", style="max-width: 90px").mx-auto
-            .col-lg.order-lg-1
-              p.mb-0 Para este punto funciona muy bien un recurso interactivo de revelado: primero se presentan los datos del instrumento, después el cálculo del SPAN, posteriormente el cálculo de la exactitud y finalmente el intervalo del valor real.
+        p.mb-0 Este ejemplo permite observar cómo las características del instrumento intervienen directamente en la interpretación del resultado de una medición.
 
 
     //- Resolución
@@ -626,7 +617,6 @@
           span Prefijos
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table(style="min-width:440px")
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Prefijo
@@ -700,22 +690,22 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Presencia de una pieza; 
+                    span Presencia de una pieza. 
               .col-lg-6
                 ul.lista-ul--color.mb-0
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Posición de un elemento; 
+                    span Posición de un elemento. 
               .col-lg-6
                 ul.lista-ul--color.mb-0
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Temperatura de un proceso; 
+                    span Temperatura de un proceso. 
               .col-lg-6
                 ul.lista-ul--color.mb-0
                   li.d-flex.mb-0 
                     i.fas.fa-solid.fa-square.me-2
-                    span Presión de un fluido; 
+                    span Presión de un fluido. 
               .col-lg-6
                 ul.lista-ul--color.mb-0
                   li.d-flex.mb-0 
@@ -740,7 +730,14 @@
       .row.mb-4.justify-content-center.align-items-center
         .col-lg-12
           p.mb-3 La instrumentación industrial reúne los elementos relacionados con la medición y la captación de variables presentes en los procesos.
-          p.mb-0 En un sistema de instrumentación, la información puede seguir una secuencia general:
+          p.mb-3 En un sistema de instrumentación, la información puede seguir una secuencia general:
+
+          .container
+            .row.align-items-center.bg-color-02.p-4.mb-0.br-15.max-cont-md
+              .col-lg-auto.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0.text-bold Variable física → captación → señal → procesamiento → control
       
       .row.mb-5.justify-content-center.align-items-stretch
         .col-lg-6.mb-4.mb-lg-0
@@ -798,8 +795,9 @@
                   .tarjeta.tarjeta--blanca.p-3.h-100.mb-0.align-content-center
                     p.mb-0 <b>Exactitud:</b> debe ser adecuada para la aplicación.
                   .tarjeta.tarjeta--blanca.p-3.h-100.mb-0.align-content-center
-                    p.mb-1 <b>Resolución:</b> debe permitir distinguir las variaciones que sean relevantes para el proceso.
-                    p.mb-0 De esta manera, la selección del instrumento no depende únicamente de identificar la variable. También requiere analizar las características que debe cumplir el dispositivo para proporcionar información útil.
+                    p.mb-0 <b>Resolución:</b> debe permitir distinguir las variaciones que sean relevantes para el proceso.
+    
+    p.mb-4 De esta manera, la selección del instrumento no depende únicamente de identificar la variable. También requiere analizar las características que debe cumplir el dispositivo para proporcionar información útil.
 
     .row.align-items-center(data-aos="fade-right")
       .col-lg-10.mx-auto
