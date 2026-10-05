@@ -165,7 +165,7 @@
         .bg-color-0.p-4.br-15
           .row.align-items-center.justify-content-around
             .col-lg-4.col-md-12.mb-3.mb-lg-0
-              p.mb-0 Por ejemplo, si un sensor produce una señal de tensión relacionada con la temperatura, diferentes temperaturas pueden generar diferentes valores de tensión:
+              p.mb-0 Por ejemplo. Si un sensor produce una señal de tensión relacionada con la temperatura, diferentes temperaturas pueden generar diferentes valores de tensión:
 
             .col-lg-3.col-md-12.mb-3.mb-lg-0
               .p-3.br-15(style="border: 2px solid #5C84CE; background-color: #EBF7FF;")
