@@ -334,7 +334,7 @@
             .col-lg-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema1/img08.svg").mx-auto
             .col-lg-8.order-1.order-lg-1.p-4
-              p.mb-1 <b>Por ejemplo</b>: un sensor puede captar una variación de temperatura y generar una señal análoga. Posteriormente, esta señal puede ser convertida en información digital para que un sistema electrónico pueda procesarla.
+              p.mb-1 <b>Por ejemplo</b>, un sensor puede captar una variación de temperatura y generar una señal análoga. Posteriormente, esta señal puede ser convertida en información digital para que un sistema electrónico pueda procesarla.
               p.mb-0 La secuencia sería: 
               p.mb-0.fw-bold Temperatura → sensor → señal análoga → conversión → señal digital → procesamiento
 

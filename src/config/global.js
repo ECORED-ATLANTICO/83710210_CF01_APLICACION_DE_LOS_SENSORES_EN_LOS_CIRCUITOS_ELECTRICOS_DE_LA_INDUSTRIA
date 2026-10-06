@@ -226,13 +226,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Dyer, J., & Davis, C. (2020). <em>Measurement and instrumentation: An introduction to concepts and methods</em>. SHAREOK.',
-      link: 'https://open.umn.edu/opentextbooks/textbooks/measurement-and-instrumentation-an-introduction-to-concepts-and-methods',
+        'Davis, C. (2018). <em>Electromechanical systems</em>. SHAREOK.',
+      link: 'https://open.umn.edu/opentextbooks/textbooks/1707',
     },
     {
       referencia:
-        'Davis, C. (2018). <em>Electromechanical systems</em>. SHAREOK.',
-      link: 'https://open.umn.edu/opentextbooks/textbooks/1707',
+        'Dyer, J., & Davis, C. (2020). <em>Measurement and instrumentation: An introduction to concepts and methods</em>. SHAREOK.',
+      link: 'https://open.umn.edu/opentextbooks/textbooks/measurement-and-instrumentation-an-introduction-to-concepts-and-methods',
     },
     {
       referencia:
@@ -278,7 +278,7 @@ export default {
         {
           nombre: 'Wilmar Urrutia Martínez',
           cargo: 'Experto temático',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'N/A',
         },
         {
           nombre: 'Carolina Coca Salazar',
