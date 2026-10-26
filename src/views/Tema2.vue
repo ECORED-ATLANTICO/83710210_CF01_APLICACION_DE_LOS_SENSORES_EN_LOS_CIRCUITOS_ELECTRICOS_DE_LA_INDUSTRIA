@@ -112,7 +112,7 @@
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0.text-bold Magnitud física → sensor → transductor → sistema electrónico → Procesamiento
+              p.mb-0.text-bold Magnitud física → sensor → transductor → sistema electrónico → procesamiento
 
       .col-lg-4.col-md-12.mb-0.mb-lg-0.order-1.order-lg-2
         figure
@@ -677,7 +677,7 @@
     p.mb-4 Un sistema de adquisición puede comprenderse como una cadena en la que cada elemento cumple una función determinada:
 
     .bg-color-02.p-4.mb-5.br-15.max-cont-md
-      p.mb-0.text-bold Variable física → Sensor → Transductor → Señal de salida → Sistema electrónico → Procesamiento
+      p.mb-0.text-bold Variable física → sensor → transductor → señal de salida → sistema electrónico → procesamiento
     
     .bg-full-width.bg-fondo-2
 

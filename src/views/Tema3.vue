@@ -199,6 +199,8 @@
           img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img13.svg", alt="Figura en plano, que representa continua permite comprender la diferencia fundamental frente a una señal digital.").mx-auto.d-none.d-lg-block
           img.mb-3(data-aos="fade-up", src="@/assets/curso/tema3/img14.svg", alt="Figura en plano, que representa continua permite comprender la diferencia fundamental frente a una señal digital.").mx-auto.d-lg-none
     
+    p.mb-5 La representación continua permite comprender la diferencia fundamental frente a una señal digital.
+
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
         .titulo-con-imagen__fondo_2
@@ -472,7 +474,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; Conversor análogo digital &rarr; Código binario &rarr; Procesamiento electrónico
+            p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal análoga &rarr; conversor análogo digital &rarr; código binario &rarr; procesamiento electrónico
 
         p.mb-2 Este proceso permite comprender la relación entre la variable física, la señal y la información digital.
         p.mb-0.fw-bold Ejemplo de conversión

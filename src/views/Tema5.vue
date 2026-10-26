@@ -291,6 +291,11 @@
           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
+    
+    .container
+      .titulo-con-imagen.mb-4(data-aos="fade-right")
+        .titulo-con-imagen__fondo_2
+          h3.titulo-con-imagen__texto_2 Sistemas numéricos
 
     .row.mb-4.mb-lg-5.align-items-stretch
       .col-lg-6.mb-4.mb-lg-0
@@ -426,7 +431,7 @@
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
         .col-lg
-          p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; ADC &rarr; Código binario &rarr; comparación / procesamiento &rarr; relé &rarr; acción
+          p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; ADC &rarr; código binario &rarr; comparación / procesamiento &rarr; relé &rarr; acción
 
     p.mb-5 Esta integración permite comprender cómo los diferentes elementos estudiados pueden participar en un sistema electrónico básico de control.
 

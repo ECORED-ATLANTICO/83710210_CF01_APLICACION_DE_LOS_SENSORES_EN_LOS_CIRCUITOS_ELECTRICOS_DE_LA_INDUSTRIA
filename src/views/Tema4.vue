@@ -165,7 +165,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.fw-bold Señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
+            p.mb-0.fw-bold señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
 
     p.mb-5 El tipo de transformación dependerá de las características de la variable, del sensor utilizado y de los requerimientos del sistema electrónico.
 
@@ -246,7 +246,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.fw-bold Señal análoga &rarr; Conversor análogo-digital &rarr; Código binario &rarr; Sistema digital
+            p.mb-0.fw-bold Señal análoga &rarr; conversor análogo-digital &rarr; código binario &rarr; sistema digital
       .col-lg-4
         p.mb-0 El proceso permite que una señal asociada con una variable física pueda ser representada mediante información digital.
 
@@ -373,7 +373,7 @@
       .col-lg-auto.d-none.d-lg-block
         img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
       .col-lg
-        p.mb-0.fw-bold Variable física &rarr; Sensor &rarr; Señal análoga &rarr; ADC &rarr; Código binario &rarr; Sistema electrónico
+        p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal análoga &rarr; ADC &rarr; código binario &rarr; sistema electrónico
 
 
     p.mb-5 Esta secuencia permite relacionar los contenidos desarrollados anteriormente sobre variables análogas, señales análogas, señales digitales y señales binarias.
