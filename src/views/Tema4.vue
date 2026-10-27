@@ -73,7 +73,7 @@
       .col-lg-auto.d-none.d-lg-block
         img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
       .col-lg
-        p.mb-0.fw-bold Proceso &rarr; Variable física &rarr; Sensor &rarr; Transductor &rarr; Señal para el sistema &rarr; Sistema electrónico
+        p.mb-0.fw-bold Proceso &rarr; variable física &rarr; sensor &rarr; transductor &rarr; señal para el sistema &rarr; sistema electrónico
 
     p.mb-5 Esta estructura constituye la base para comprender cómo una variable física puede convertirse en información utilizable por un sistema electrónico.
 
@@ -165,7 +165,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.fw-bold señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
+            p.mb-0.fw-bold Señal de entrada &rarr; transformación o adaptación &rarr; señal de salida
 
     p.mb-5 El tipo de transformación dependerá de las características de la variable, del sensor utilizado y de los requerimientos del sistema electrónico.
 

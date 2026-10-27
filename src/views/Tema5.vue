@@ -290,7 +290,7 @@
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
         .col-lg
-          p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
+          p.mb-0.fw-bold Variable &rarr; sensor &rarr; señal &rarr; comparador &rarr; señal de control &rarr; relé &rarr; acción
     
     .container
       .titulo-con-imagen.mb-4(data-aos="fade-right")
